@@ -1,4 +1,4 @@
-## :私募股权基金概况:
+## 私募股权基金概况
 
 ![](http://i2.bvimg.com/589095/f0ebfe8206c8e8d3.png)
 ![](http://i2.bvimg.com/589095/d3fecf2c3f569da1.png)
