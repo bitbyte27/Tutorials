@@ -31,3 +31,12 @@
 ![](pic/PR5.png)
 
 #### 四、源项目作者Merge此PR，将此次的更改融入到源项目，并形成Commits记录。
+#### 进入Pull Request，查看序号#52的PR：
+![](pic/PR6.png)
+#### 序号#52的PR已经Merge：
+![](pic/PR7.png)
+#### 进入源项目，查看Commit记录：
+![](pic/PR8.png)
+![](pic/PR9.png)
+
+### 至此，整个Fork、修改或创建文件、Pull Request以及Merge的步骤已完成，玩的愉快！！
