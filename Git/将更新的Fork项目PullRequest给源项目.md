@@ -4,11 +4,11 @@
 
 ### 在PR之前，甚至开始修改或创建新文件之前，先看看源项目是否有更新，如有更新，可按上个教程[《在GitHub上更新Fork的方法》](https://github.com/bitbyte27/SoftwareTutorials/blob/master/Git/%E5%9C%A8GitHub%E4%B8%8A%E6%9B%B4%E6%96%B0Fork%E7%9A%84%E6%96%B9%E6%B3%95.md)先更新自己的Fork项目，再做创建新文件，老司机说这样冲突比较少。
 
-#### 一、看到别人的好项目，如何“据为己有”？Fork一下咯！！
+#### 一、看到别人的好项目，如何“据为己有”？Fork一下咯！
 ![](pic/fork1.png)
-#### 点击Fork，会进入Fork进行中的界面
+#### 点击Fork，会进入Fork进行中的界面；
 ![](pic/fork2.jpg)
-#### Fork完成后，可以在自己的主页（Your Profile）看到Fork的项目
+#### Fork完成后，可以在自己的主页（Your Profile）看到Fork的项目。
 ![](pic/fork3.png)
 
 #### 二、可以通过Create new file或upload file新建或上传文件，要注意的是：上传的文件会把原来同名文件覆盖掉！
@@ -25,7 +25,7 @@
 ![](pic/PR2.png)
 #### Pull Request后会进入Comparing changes页面，核对一下Base Fork和Head Fork（蓝色圆圈）、以及更新的内容（紫色方框）；由于已经更新过最新的源项目内容，与源项目同步好了，所以此时显示“Able to merge”（红圈绿字）；一切就绪，点击Create创建PR。
 ![](pic/PR3.png)
-#### 输入主题，并Create PR.
+#### 输入主题，并Create PR；
 ![](pic/PR4.png)
 #### 这时可以看到已经将这个更新PR给源项目作者，PR序号为#52，状态open。
 ![](pic/PR5.png)
@@ -39,4 +39,4 @@
 ![](pic/PR8.png)
 ![](pic/PR9.png)
 
-### 至此，整个Fork、修改或创建文件、Pull Request以及Merge的步骤已完成，玩的愉快！！
+### 至此，整个Fork、修改或创建文件、Pull Request以及Merge的步骤已完成，玩的愉快！
