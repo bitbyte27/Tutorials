@@ -2,7 +2,7 @@
 
 ### 我们Fork项目之后进行了修改或添加新文件，需要Pull Request（简称：PR）给源项目，让作者Merge融入到他的源项目里；我做了一个教程，步骤如下：
 
-### 在PR之前，甚至开始修改或创建新文件之前，先看看源项目是否有更新，如有更新，可按上个教程![《在GitHub上更新Fork的方法》](https://github.com/bitbyte27/SoftwareTutorials/blob/master/Git/%E5%9C%A8GitHub%E4%B8%8A%E6%9B%B4%E6%96%B0Fork%E7%9A%84%E6%96%B9%E6%B3%95.md)先更新自己的Fork项目，再做创建新文件，老司机说这样冲突比较少。
+### 在PR之前，甚至开始修改或创建新文件之前，先看看源项目是否有更新，如有更新，可按上个教程[《在GitHub上更新Fork的方法》](https://github.com/bitbyte27/SoftwareTutorials/blob/master/Git/%E5%9C%A8GitHub%E4%B8%8A%E6%9B%B4%E6%96%B0Fork%E7%9A%84%E6%96%B9%E6%B3%95.md)先更新自己的Fork项目，再做创建新文件，老司机说这样冲突比较少。
 
 #### 一、看到别人的好项目，如何“据为己有”？Fork一下咯！！
 ![](pic/fork1.png)
