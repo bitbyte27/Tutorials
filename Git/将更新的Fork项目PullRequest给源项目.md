@@ -21,3 +21,11 @@
 ![](pic/fork7.png)
 
 #### 三、新建PR：可以在Fork项目的根目录下，或者任意的目录下，Pull Request。
+![](pic/PR1.png)
+![](pic/PR2.png)
+#### Pull Request后会进入Comparing changes页面，核对一下Base Fork和Head Fork（蓝色圆圈）、以及更新的内容（紫色方框）；由于已经更新过最新的源项目内容，与源项目同步好了，所以此时显示“Able to merge”（红圈绿字）；一切就绪，点击Create创建PR。
+![](pic/PR3.png)
+#### 输入主题，并Create PR.
+![](pic/PR4.png)
+#### 这时可以看到已经将这个更新PR给源项目作者，PR序号为#52，状态open。
+![](pic/PR5.png)
