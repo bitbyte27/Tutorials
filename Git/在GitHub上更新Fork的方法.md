@@ -21,17 +21,17 @@
 
 #### 四、新Create的PR在哪里可以找到呢？进入我自己的Fork项目，导航条上的PR进入，看到Open的有一个，就是刚才更新的：
 ![](pic/ForkFetch7.png)
-#### 点击进入确认一下
+#### 点击进入确认一下。
 ![](pic/ForkFetch8.png)
 
-#### 五、把源项目的更新Merge到我的Fork项目
+#### 五、把源项目的更新Merge到我的Fork项目。
 ![](pic/ForkFetch9.png)
-#### Confirm Merge，确定这个更新
+#### Confirm Merge，确定这个更新；
 ![](pic/ForkFetch10.png)
 #### 可以看到，这个PR已经更新完成，呈紫色的Merge状态。
 ![](pic/ForkFetch11.png)
 
-#### 六、最后验证一下是否更新到最新的项目，因为已知是更新了Pattern Recognition，所以直接进入
+#### 六、最后验证一下是否更新到最新的项目，因为已知是更新了Pattern Recognition，所以直接进入。
 ![](pic/ForkFetch12.png)
 #### 查看到下面5个是最新修改的，15个小时之前修改了内容。
 ![](pic/ForkFetch13.png)
