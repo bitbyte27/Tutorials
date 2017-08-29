@@ -4,5 +4,8 @@
 
 ### 更新Fork的方法有很多，Git写代码是很好的，当小白通常比较难做，步骤错了经常不奏效；所以我自己亲测了一个GitHub上更新Fork的方法，做一个教程，与朋友们共勉；废话少说，步骤如下：
 
-### 一、进入自己Fork来的仓库
+### 一、进入自己Fork来的仓库，按New Pull Request按钮，新建一个Pull Request（简称：PR）
 ![](pic/ForkFetch1.png)
+
+### 二、如果自己还没有修改过Fork仓库的文件，那么此时可以点击switching the base，切换到基于我自己的Fork仓库
+![](pic/ForkFetch2.png)
