@@ -14,7 +14,7 @@
 ![](pic/ForkFetch4.png)
 * 这里有个小技巧：在默认状态下，会是Base源项目，Head我自己的Fork项目；这样选择任何一个时，会调到某个无法更新的页面；解决方法是先Base或Head一个其他人的账号下的Fork，接着选择Head/Base源项目或我自己的Fork项目，这样就不会出现Base和Head都是自己或者都是源项目的情况。
 
-#### 三、Base和Head设置完，就进入Camparing Changes页面，确认一下Base和Head，以及最新的更新内容。
+#### 三、Base和Head设置完，就进入Comparing Changes页面，确认一下Base和Head，以及最新的更新内容。
 ![](pic/ForkFetch5.png)
 #### 内容没问题就Create PR了，绿色箭头所指向的绿色按钮；接着输入主题，Create。
 ![](pic/ForkFetch6.png)
