@@ -6,6 +6,6 @@
 
 * 移动平均线可以平滑价格数据，形成趋势跟踪指标。他们并不预测价格方向，而是用滞后的方式来定义当前的方向。移动平均线之所以滞后，因为它们是基于过去的价格。尽管有这种滞后，移动平均线仍然有助于平稳价格移动和滤除噪音。它们也的构成了许多其他技术指标和覆盖的基石，如Bollinger波段、MACD和McClellan振荡器。最流行的两种移动平均法是简单移动平均法(SMA)和指数移动平均法(EMA)。这些移动平均线可以用来确定趋势的方向或确定潜在的支撑和阻力水平。
 
-### Here's a chart with both an SMA and an EMA on it:
+#### Here's a chart with both an SMA and an EMA on it:
 
 ![](pic/mova-1-intcexam.png)
