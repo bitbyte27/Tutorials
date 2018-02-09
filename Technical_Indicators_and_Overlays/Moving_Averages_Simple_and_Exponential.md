@@ -8,4 +8,4 @@
 
 ### Here's a chart with both an SMA and an EMA on it:
 
-mova-1-intcexam.png
+![](pic/mova-1-intcexam.png)
