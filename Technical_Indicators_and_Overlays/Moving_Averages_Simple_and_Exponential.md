@@ -9,3 +9,11 @@
 #### Here's a chart with both an SMA and an EMA on it:
 
 ![](pic/mova-1-intcexam.png)
+
+## Simple Moving Average Calculation
+* A simple moving average is formed by computing the average price of a security over a specific number of periods. Most moving averages are based on closing prices. A 5-day simple moving average is the five-day sum of closing prices divided by five. As its name implies, a moving average is an average that moves. Old data is dropped as new data comes available. This causes the average to move along the time scale. Below is an example of a 5-day moving average evolving over three days.
+* 简单移动平均(SMA)是通过计算证券在特定时期内的平均价格而形成的。大多数移动均线都是基于收盘价。5天简单移动平均线是5天收盘价总和除以5。顾名思义，移动平均线就是移动的平均线。当新数据可用时，将删除旧数据。这导致平均沿时间尺度移动。下面是一个五天移动平均演变在三天内的例子。
+* Daily Closing Prices: 11,12,13,14,15,16,17
+* First day of 5-day SMA: (11 + 12 + 13 + 14 + 15) / 5 = 13
+* Second day of 5-day SMA: (12 + 13 + 14 + 15 + 16) / 5 = 14
+* Third day of 5-day SMA: (13 + 14 + 15 + 16 + 17) / 5 = 15
