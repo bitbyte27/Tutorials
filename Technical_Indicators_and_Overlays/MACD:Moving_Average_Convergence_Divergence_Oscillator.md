@@ -41,3 +41,16 @@
 * 信号线交叉口是MACD信号中最常见的一种。信号线是MACD线的9天均线.。作为指示器的移动平均值，它跟踪MACD，使识别MACD转弯变得更容易。当MACD出现并越过信号线时，就会出现一个牛市交叉。当MACD掉头并穿过信号线下方时，就会出现看跌交叉。交叉可以持续几天或几周，这一切都取决于力度的移动。
 
 * Due diligence is required before relying on these common signals. Signal line crossovers at positive or negative extremes should be viewed with caution. Even though the MACD does not have upper and lower limits, chartists can estimate historical extremes with a simple visual assessment. It takes a strong move in the underlying security to push momentum to an extreme. Even though the move may continue, momentum is likely to slow and this will usually produce a signal line crossover at the extremities. Volatility in the underlying security can also increase the number of crossovers.
+
+* 在依赖这些共同的信号之前，需要尽职调查。在正或负极端的信号线交叉应谨慎看待。尽管MACD没有上限和下限，但角色主义者可以通过一个简单的视觉评估来估计历史的极端。要想把势头推向极端，需要在基础安全领域采取强有力的举措。尽管这一举动可能会继续下去，但势头可能会放缓，这通常会在极端情况下产生信号线交叉。潜在证券的波动性也会增加交叉证券的数量。
+
+* The chart below shows IBM with its 12-day EMA (green), 26-day EMA (red) and the 12,26,9 MACD in the indicator window. There were eight signal line crossovers in six months: four up and four down. There were some good signals and some bad signals. The yellow area highlights a period when the MACD Line surged above 2 to reach a positive extreme. There were two bearish signal line crossovers in April and May, but IBM continued trending higher. Even though upward momentum slowed after the surge, upward momentum was still stronger than downside momentum in April-May. The third bearish signal line crossover in May resulted in a good signal.
+
+* 下图显示IBM的12天EMA(绿色)、26天EMA(红色)和12，26.9个MACD在指示器窗口.。六个月内有8条信号线交叉线：4条向上，4条向下。有好的信号也有坏的信号。黄色区域突出了MACD线上升到2以上达到一个积极极端的时期。4月和5月有两条看跌信号线交叉线，但IBM仍有走高的趋势。尽管上涨势头在涨势后有所放缓，但4月至5月的上行势头仍强于下行势头。第三次看跌信号线交叉在5月结果是一个好信号。
+
+![](pic/macd-02-ibmsigx.png)
+
+## Centerline Crossovers
+* Centerline crossovers are the next most common MACD signals. A bullish centerline crossover occurs when the MACD Line moves above the zero line to turn positive. This happens when the 12-day EMA of the underlying security moves above the 26-day EMA. A bearish centerline crossover occurs when the MACD moves below the zero line to turn negative. This happens when the 12-day EMA moves below the 26-day EMA.
+
+* 中心线交叉是下一个最常见的MACD信号。当MACD线在零线上方移动以转向正方向时，就会出现看涨的中线交叉。当基础安全的12天均线高于26天均线时，就会发生这种情况。当MACD移动到零线以下变成负值时，就会发生看跌中心线交叉。这发生在12天均线低于26天均线时。
