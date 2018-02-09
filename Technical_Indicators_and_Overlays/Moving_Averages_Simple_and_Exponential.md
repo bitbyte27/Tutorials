@@ -80,3 +80,44 @@
 ![](pic/mova-3-ibmsema.png)
 
 ## Lengths and Timeframes
+* The length of the moving average depends on the analytical objectives. Short moving averages (5-20 periods) are best suited for short-term trends and trading. Chartists interested in medium-term trends would opt for longer moving averages that might extend 20-60 periods. Long-term investors will prefer moving averages with 100 or more periods.
+
+* 移动平均的长度取决于分析目标。短期移动平均线(5-20期)最适合短期趋势和交易.。对中期趋势感兴趣的ChArters会选择更长的移动平均线，这可能会延长20-60个时期。长期投资者会更喜欢有100个或更多周期的移动平均线.
+
+* Some moving average lengths are more popular than others. The 200-day moving average is perhaps the most popular. Because of its length, this is clearly a long-term moving average. Next, the 50-day moving average is quite popular for the medium-term trend. Many chartists use the 50-day and 200-day moving averages together. Short-term, a 10-day moving average was quite popular in the past because it was easy to calculate. One simply added the numbers and moved the decimal point.
+
+* 一些移动平均长度比其他移动平均长度更受欢迎。200天移动平均线可能是最受欢迎的。由于它的长度，这显然是一个长期移动平均.。接下来，50天移动平均线在中期趋势中很受欢迎.。许多人物使用50天和200天的移动平均线。短期而言，10天移动平均线在过去相当流行，因为它很容易计算。其中一个简单地添加了数字并移动了小数点。
+
+## Trend Identification
+* The same signals can be generated using simple or exponential moving averages. As noted above, the preference depends on each individual. These examples below will use both simple and exponential moving averages. The term “moving average” applies to both simple and exponential moving averages.
+
+* 同样的信号可以用简单的或指数的移动平均值产生。如上所述，偏好取决于每个人。下面的这些例子将使用简单的和指数的移动平均值。“移动平均”一词既适用于简单移动平均，也适用于指数移动平均。
+
+* The direction of the moving average conveys important information about prices. A rising moving average shows that prices are generally increasing. A falling moving average indicates that prices, on average, are falling. A rising long-term moving average reflects a long-term uptrend. A falling long-term moving average reflects a long-term downtrend.
+
+* 移动平均线的方向传达了有关价格的重要信息。上升的移动平均线显示价格普遍在上涨。下跌的移动平均线表明，平均价格正在下降。长期移动均线上升反映了长期上升趋势.。长期移动均线下跌反映了长期下跌趋势。
+
+![](pic/mova-4-mmmturn.png)
+
+* The chart above shows 3M (MMM) with a 150-day exponential moving average. This example shows just how well moving averages work when the trend is strong. The 150-day EMA turned down in November 2007 and again in January 2008. Notice that it took a 15% decline to reverse the direction of this moving average. These lagging indicators identify trend reversals as they occur (at best) or after they occur (at worst). MMM continued lower into March 2009 and then surged 40-50%. Notice that the 150-day EMA did not turn up until after this surge. Once it did, however, MMM continued higher the next 12 months. Moving averages work brilliantly in strong trends.
+
+* 上图显示了3M(MMM)公司的150天指数移动平均.。这个例子显示了当趋势很强时移动平均线是如何工作的。为期150天的均线考试在2007年11月和2008年1月又一次被拒绝.。请注意，这一移动平均线的方向发生了15%的下跌。这些滞后指标在发生(最多)或发生后(最坏的情况)时确定趋势逆转。MMM持续下跌至2009年3月，随后上涨40至50%。请注意，150天的均线没有出现，直到这次激增。然而，一旦做到了，MMM在接下来的12个月里继续走高。移动平均线在强劲趋势中发挥了出色的作用。
+
+## Double Crossovers
+* Two moving averages can be used together to generate crossover signals. In Technical Analysis of the Financial Markets, John Murphy calls this the “double crossover method”. Double crossovers involve one relatively short moving average and one relatively long moving average. As with all moving averages, the general length of the moving average defines the timeframe for the system. A system using a 5-day EMA and 35-day EMA would be deemed short-term. A system using a 50-day SMA and 200-day SMA would be deemed medium-term, perhaps even long-term.
+
+* 两个移动平均线可以一起用来产生交叉信号。在“金融市场的技术分析”中，约翰·墨菲称这是“双交叉方法”。双交叉包括一个相对较短的移动平均线和一个相对长的移动平均线。与所有移动平均值一样，移动平均值的一般长度定义了系统的时间框架。使用5天均线和35天均线的系统将被认为是短期的.。使用50天SMA和200天SMA的系统将被视为中期，甚至可能是长期的。
+
+* A bullish crossover occurs when the shorter moving average crosses above the longer moving average. This is also known as a golden cross. A bearish crossover occurs when the shorter moving average crosses below the longer moving average. This is known as a dead cross.
+
+* 当较短的移动平均线超过较长的移动平均线时，就会出现看涨的交叉。这也被称为黄金十字架（金叉）。当较短的移动平均线低于较长的移动平均线时，就会出现看跌交叉。这就是所谓的死十字架（死叉）。
+
+* Moving average crossovers produce relatively late signals. After all, the system employs two lagging indicators. The longer the moving average periods, the greater the lag in the signals. These signals work great when a good trend takes hold. However, a moving average crossover system will produce lots of whipsaws in the absence of a strong trend.
+
+* 移动平均交叉产生相对较晚的信号。毕竟，该系统采用了两个滞后指标。移动平均周期越长，信号的滞后就越大。当好的趋势形成时，这些信号就会发挥巨大的作用。然而，在没有强劲趋势的情况下，移动平均交叉系统将产生大量的鞭子。
+
+* There is also a triple crossover method that involves three moving averages. Again, a signal is generated when the shortest moving average crosses the two longer moving averages. A simple triple crossover system might involve 5-day, 10-day, and 20-day moving averages.
+
+* 还有一个三重交叉方法，涉及三个移动平均值。同样，当最短移动平均线与两个较长的移动平均线相交时，会产生信号。一个简单的三重交叉系统可能涉及5天、10天和20天移动平均线。
+
+![](pic/mova-5-hdcross.png)
