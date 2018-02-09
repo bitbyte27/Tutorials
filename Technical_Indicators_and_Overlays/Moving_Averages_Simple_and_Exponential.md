@@ -121,3 +121,17 @@
 * 还有一个三重交叉方法，涉及三个移动平均值。同样，当最短移动平均线与两个较长的移动平均线相交时，会产生信号。一个简单的三重交叉系统可能涉及5天、10天和20天移动平均线。
 
 ![](pic/mova-5-hdcross.png)
+
+* The chart above shows Home Depot (HD) with a 10-day EMA (green dotted line) and 50-day EMA (red line). The black line is the daily close. Using a moving average crossover would have resulted in three whipsaws before catching a good trade. The 10-day EMA broke below the 50-day EMA in late October (1), but this did not last long as the 10-day moved back above in mid-November (2). This cross lasted longer, but the next bearish crossover in January (3) occurred near late November price levels, resulting in another whipsaw. This bearish cross did not last long as the 10-day EMA moved back above the 50-day a few days later (4). After three bad signals, the fourth signal foreshadowed a strong move as the stock advanced over 20%.
+
+* 上图显示家得宝(HD)公司有10天的EMA(绿色虚线)和50天的EMA(红线)。黑线是每日的尾声。使用移动平均交叉将导致三鞭子之前抓住一个好的交易。10天均线在10月底跌破了50天的均线(1)，但这并没有持续到11月中旬的10天后才回升(2)。这一交叉交易持续时间较长，但1月(3)的下一次看跌交叉发生在接近11月底的价格水平，导致了另一场震荡。这一熊市交叉并没有持续很长时间，因为10天的均线在几天后又回到50天以上(4)。在经历了三个坏信号之后，第四信号预示着股市将出现强劲的走势，股价上涨超过20%。
+
+* There are two takeaways here. First, crossovers are prone to whipsaw. A price or time filter can be applied to help prevent whipsaws. Traders might require the crossover to last 3 days before acting or require the 10-day EMA to move above/below the 50-day EMA by a certain amount before acting. Second, MACD can be used to identify and quantify these crossovers. MACD (10,50,1) will show a line representing the difference between the two exponential moving averages. MACD turns positive during a golden cross and negative during a dead cross. The Percentage Price Oscillator (PPO) can be used the same way to show percentage differences. Note that MACD and the PPO are based on exponential moving averages and will not match up with simple moving averages.
+
+* 这里有两个提示。首先，交叉易产生鞭锯。价格或时间过滤器可以用来帮助防止鞭子。交易者可能要求交叉操作在行动前持续3天，或要求10天均线在50天均线以上/以下移动一定数量后才能采取行动。第二，MACD可以用来识别和量化这些交叉点。MACD(10，50，1)将显示一条线，表示两个指数移动平均值之间的差值。MACD在金十字时变为正，在死叉时变为负值。百分比价格振荡器(PPO)可以用同样的方式来表示百分比的差异。请注意，MACD和PPO是基于指数移动平均，不会与简单的移动平均线相匹配。
+
+![](pic/mova-6-orclcross.png)
+
+* This chart shows Oracle (ORCL) with the 50-day EMA, 200-day EMA and MACD(50,200,1). There were four moving average crossovers over a 2 1/2 year period. The first three resulted in whipsaws or bad trades. A sustained trend began with the fourth crossover as ORCL advanced to the mid-20s. Once again, moving average crossovers work great when the trend is strong, but produce losses in the absence of a trend.
+
+* 这个图表显示了甲骨文(ORCL)公司的50天EMA，200天EMA和MACD(50，200，1).。在两年半的时间里，有四次移动平均交叉。前三次交易导致了鞭打或坏交易。随着ORCL进入20年代中期，第四次交叉开始了一个持续的趋势。再一次，当趋势强劲时，移动平均线会产生很大的效果，但在没有趋势的情况下会产生损失。
