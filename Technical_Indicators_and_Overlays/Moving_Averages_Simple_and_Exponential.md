@@ -135,3 +135,29 @@
 * This chart shows Oracle (ORCL) with the 50-day EMA, 200-day EMA and MACD(50,200,1). There were four moving average crossovers over a 2 1/2 year period. The first three resulted in whipsaws or bad trades. A sustained trend began with the fourth crossover as ORCL advanced to the mid-20s. Once again, moving average crossovers work great when the trend is strong, but produce losses in the absence of a trend.
 
 * 这个图表显示了甲骨文(ORCL)公司的50天EMA，200天EMA和MACD(50，200，1).。在两年半的时间里，有四次移动平均交叉。前三次交易导致了鞭打或坏交易。随着ORCL进入20年代中期，第四次交叉开始了一个持续的趋势。再一次，当趋势强劲时，移动平均线会产生很大的效果，但在没有趋势的情况下会产生损失。
+
+## Price Crossovers
+* Moving averages can also be used to generate signals with simple price crossovers. A bullish signal is generated when prices move above the moving average. A bearish signal is generated when prices move below the moving average. Price crossovers can be combined to trade within the bigger trend. The longer moving average sets the tone for the bigger trend and the shorter moving average is used to generate the signals. One would look for bullish price crosses only when prices are already above the longer moving average. This would be trading in harmony with the bigger trend. For example, if price is above the 200-day moving average, chartists would only focus on signals when price moves above the 50-day moving average. Obviously, a move below the 50-day moving average would precede such a signal, but such bearish crosses would be ignored because the bigger trend is up. A bearish cross would simply suggest a pullback within a bigger uptrend. A cross back above the 50-day moving average would signal an upturn in prices and continuation of the bigger uptrend.
+
+* 移动平均线也可以用来生成简单的价格交叉信号。当价格高于移动平均线时，就会产生看涨信号。当价格低于移动平均线时，就会产生看跌信号。价格交叉可以结合起来，在更大的趋势内交易。移动平均时间越长，趋势越大，信号产生的平均时间越短。只有当价格已经高于较长的移动平均线时，人们才会寻找看涨的价格交叉。这将与更大的趋势相协调。例如，如果价格高于200天移动平均线，当价格高于50天移动平均线时，策划师只会关注信号。显然，低于50天移动平均线的走势将先于这样的信号，但这样的看跌交叉将被忽略，因为更大的趋势是上升的。看跌交叉只意味着在更大的上涨趋势内回调。若反弹至50天移动均线上方，将意味着价格上扬，并延续更大的上涨趋势。
+
+* The next chart shows Emerson Electric (EMR) with the 50-day EMA and 200-day EMA. The stock moved above and held above the 200-day moving average in August. There were dips below the 50-day EMA in early November and again in early February. Prices quickly moved back above the 50-day EMA to provide bullish signals (green arrows) in harmony with the bigger uptrend. MACD(1,50,1) is shown in the indicator window to confirm price crosses above or below the 50-day EMA. The 1-day EMA equals the closing price. MACD(1,50,1) is positive when the close is above the 50-day EMA and negative when the close is below the 50-day EMA.
+
+* 下一张图表显示爱默生电气公司(EMR)公司的50天EMA和200天EMA.。8月份，该公司股价在200日移动均线上方移动，并保持在该水平之上.。11月初和2月初，均线指数都低于50天.。价格迅速回到50天均线上方，提供了看涨信号(绿色箭头)，以配合更大的上涨趋势。MACD(1，50，1)显示在指标窗口，以确认价格交叉以上或低于50天均线.。1天均线等于收盘价.。MACD(1，50，1)当收盘高于50天均线时为正，当收盘价低于50天均线时为负值。
+
+![](pic/mova-7-emrpricex.png)
+
+## Support and Resistance
+* Moving averages can also act as support in an uptrend and resistance in a downtrend. A short-term uptrend might find support near the 20-day simple moving average, which is also used in Bollinger Bands. A long-term uptrend might find support near the 200-day simple moving average, which is the most popular long-term moving average. In fact, the 200-day moving average may offer support or resistance simply because it is so widely used. It is almost like a self-fulfilling prophecy.
+
+* 移动平均线也可以在上升趋势中起到支撑作用，在下行趋势中起到阻力作用。短期上涨趋势可能在20天简单移动均线附近找到支撑，这也适用于Bollinger波段。长期上涨趋势可能在200天简单移动平均线附近找到支撑，这是最受欢迎的长期移动平均线。事实上，200天移动平均线可能提供支撑或阻力，因为它是如此广泛的使用。这几乎就像一个自我实现的预言。
+
+![](pic/mova-8-nyasupp.png)
+
+* The chart above shows the NY Composite with the 200-day simple moving average from mid-2004 until the end of 2008. The 200-day provided support numerous times during the advance. Once the trend reversed with a double top support break, the 200-day moving average acted as resistance around 9500.
+
+* 上图显示纽约综合指数2004年年中至2008年底有200天简单移动平均线。在前进过程中，200天提供了多次支援。一旦趋势逆转，双顶支撑突破，200天移动平均线作为阻力在9500左右。
+
+* Do not expect exact support and resistance levels from moving averages, especially longer moving averages. Markets are driven by emotion, which makes them prone to overshoots. Instead of exact levels, moving averages can be used to identify support or resistance zones.
+
+* 不要期望移动平均线的精确支撑和阻力水平，特别是较长的移动平均线。市场是受情绪驱动的，这使他们容易过度。移动平均线可以用来识别支撑区或阻力区，而不是精确的水平。
