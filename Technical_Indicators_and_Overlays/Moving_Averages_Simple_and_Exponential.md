@@ -55,3 +55,28 @@
 * 下面的电子表格示例可以追溯到前30个句点。EMA计算中只有30个数据点，电子表格中10天的EMA值并不十分准确。在我们的图表上，我们计算了至少250个周期(通常更远)，结果是EMA值精确到一个便士的一小部分。
 
 ![](pic/mova-1-sprdsheet.png)
+
+## The Lag Factor
+
+* The longer the moving average, the more the lag. A 10-day exponential moving average will hug prices quite closely and turn shortly after prices turn. Short moving averages are like speedboats - nimble and quick to change. In contrast, a 100-day moving average contains lots of past data that slows it down. Longer moving averages are like ocean tankers - lethargic and slow to change. It takes a larger and longer price movement for a 100-day moving average to change course.
+
+* 移动平均线越长，滞后就越大。10天指数移动平均线会紧紧地拥抱价格，在价格转跌后不久就会回升。短距离移动平均线就像快艇一样--敏捷且变化迅速。相比之下，100天移动平均线包含了许多过去的数据，这些数据使其速度减慢。较长的移动平均线就像海洋油轮——沉闷而缓慢的变化。一个100天的移动平均线需要更大和更长的价格变动才能改变方向。
+
+![](pic/mova-2-spylag.png)
+
+* The chart above shows the S&P 500 ETF with a 10-day EMA closely following prices and a 100-day SMA grinding higher. Even with the January-February decline, the 100-day SMA held the course and did not turn down. The 50-day SMA fits somewhere between the 10- and 100-day moving averages when it comes to the lag factor.
+
+* 上图显示，标普500ETF的10天均线紧跟随价格，100天形状记忆合金磨削更高。即使在一月到二月的下跌，100天的SMA坚持了这个过程，并没有拒绝.。当谈到滞后因素时，50天的SMA介于10天和100天的移动均线之间。
+
+## Simple vs Exponential Moving Averages
+* Even though there are clear differences between simple moving averages and exponential moving averages, one is not necessarily better than the other. Exponential moving averages have less lag and are therefore more sensitive to recent prices - and recent price changes. Exponential moving averages will turn before simple moving averages. Simple moving averages, on the other hand, represent a true average of prices for the entire time period. As such, simple moving averages may be better suited to identify support or resistance levels.
+
+* 尽管简单移动平均线和指数移动平均有明显的区别，但其中一个并不一定比另一个好。指数移动平均线的滞后较小，因此对近期价格和近期价格变化更为敏感。指数移动平均将在简单移动平均线之前发生变化。另一方面，简单的移动平均线代表整个时期的真实平均价格。因此，简单的移动平均线可能更适合于识别支撑或阻力水平。
+
+* Moving average preference depends on objectives, analytical style, and time horizon. Chartists should experiment with both types of moving averages as well as different timeframes to find the best fit. The chart below shows IBM with the 50-day SMA in red and the 50-day EMA in green. Both peaked in late January, but the decline in the EMA was sharper than the decline in the SMA. The EMA turned up in mid-February, but the SMA continued lower until the end of March. Notice that the SMA turned up over a month after the EMA.
+
+* 移动平均偏好取决于目标、分析风格和时间范围。艺术家应该试验两种类型的移动平均线以及不同的时间框架，以找到最佳匹配。下图显示IBM的50天形状记忆合金为红色，50天EMA为绿色.。这两种货币在1月底都达到了顶峰，但EMA的下降比SMA的下降更为剧烈。EMA在2月中旬出现，但SMA一直到3月底才开始走低.。注意，SMA出现在EMA后一个多月。
+
+![](pic/mova-3-ibmsema.png)
+
+## Lengths and Timeframes
