@@ -161,3 +161,13 @@
 * Do not expect exact support and resistance levels from moving averages, especially longer moving averages. Markets are driven by emotion, which makes them prone to overshoots. Instead of exact levels, moving averages can be used to identify support or resistance zones.
 
 * 不要期望移动平均线的精确支撑和阻力水平，特别是较长的移动平均线。市场是受情绪驱动的，这使他们容易过度。移动平均线可以用来识别支撑区或阻力区，而不是精确的水平。
+
+## Conclusions
+* The advantages of using moving averages need to be weighed against the disadvantages. Moving averages are trend following, or lagging, indicators that will always be a step behind. This is not necessarily a bad thing though. After all, the trend is your friend and it is best to trade in the direction of the trend. Moving averages ensure that a trader is in line with the current trend. Even though the trend is your friend, securities spend a great deal of time in trading ranges, which render moving averages ineffective. Once in a trend, moving averages will keep you in, but also give late signals. Don't expect to sell at the top and buy at the bottom using moving averages. As with most technical analysis tools, moving averages should not be used on their own, but in conjunction with other complementary tools. Chartists can use moving averages to define the overall trend and then use RSI to define overbought or oversold levels.
+
+* 使用移动平均线的优点需要与缺点进行权衡。移动平均线是趋势跟踪指标，或者说是滞后指标，总是落后一步。不过，这不一定是坏事。毕竟，趋势是你的朋友，最好朝趋势的方向去交易。移动平均线确保交易者与当前趋势一致。尽管趋势是你的朋友，证券花费了大量的时间在交易区间，这使得移动平均线无效。一旦进入一个趋势，移动平均线会让你继续前进，但也会给出迟来的信号。不要指望在顶部卖出，在底部用移动平均线买入。与大多数技术分析工具一样，不应单独使用移动平均数，而应与其他补充工具结合使用。创作者可以使用移动平均线来定义总体趋势，然后使用RSI来定义超买或超卖水平。
+
+## Further Study
+* John Murphy's book has a chapter devoted to moving averages and their various uses. Murphy covers the pros and cons of moving averages. In addition, Murphy shows how moving averages work with Bollinger Bands and channel-based trading systems.
+
+* 约翰墨菲的书有一章专门讨论移动平均线及其各种用途。墨菲介绍了移动平均法的利弊。此外，墨菲展示了移动平均线如何与Bollinger波段和基于渠道的交易系统一起工作。
