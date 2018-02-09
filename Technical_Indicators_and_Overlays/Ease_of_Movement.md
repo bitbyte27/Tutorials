@@ -9,4 +9,4 @@
 ## SharpCharts Calculation
 * There are three parts to the EMV formula: distance moved, volume and the high-low range. First, the distance moved is calculated by comparing the current period's midpoint with the prior period's midpoint, which is the high plus the low divided by two. Distance moved is positive when the current midpoint is above the prior midpoint and negative when the current midpoint is below the prior midpoint. Distance moved is shown as the numerator in the formula below.
 
-* EMV公式分为三个部分：距离移动、体积和高-低范围.。首先，通过比较当前周期的中点和前期的中点，即高加低除以2，计算出移动距离。当当前中点高于前中点时，移动距离为正；当当前中点低于前中点时，移动距离为负。移动距离在下面的公式中显示为分子。
+* EMV公式分为三个部分：距离移动、成交量和最高价-最低价范围.。首先，通过比较当前周期的中点和前期的中点，即最高价加最低价除以2，计算出移动距离。当当前中点高于前中点时，移动距离为正；当当前中点低于前中点时，移动距离为负。移动距离在下面的公式中显示为分子。
