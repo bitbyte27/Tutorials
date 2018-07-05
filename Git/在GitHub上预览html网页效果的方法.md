@@ -20,8 +20,7 @@
 
 ### 方法三
 
-* 第一种是在你打开的源码地址的url地址基础上加http://htmlpreview.github.io/?
-* 或者http://htmlpreview.github.com/? (注：填这个还是会转到前面那个前缀去的)前缀。
+* 第一种是在你打开的源码地址的url地址基础上加http://htmlpreview.github.io/? ；或者http://htmlpreview.github.com/? （注：填这个还是会转到前面那个前缀去的）。
 * 第二种就是在你的项目branch上添加一个gh-pages分支，然后将你的项目复制一份到这个分支上，然后再进入settings的github pages进行设置就OK了。
 * 总结下上面两种，添加前缀的方式确实比较简单，但是东西多了就会加载很慢，甚至不能正确的显示css样式，对于显示js的效果就更不使用了。所以，赶快放弃吧！创建分支的方式确实是很麻烦额，之前就是感觉麻烦的不得了所以没用这种方式，接下来要介绍的是创建分支的升级版。
 
