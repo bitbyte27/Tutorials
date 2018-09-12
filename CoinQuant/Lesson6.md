@@ -7,7 +7,6 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961196.webp)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961191.webp)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961184.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2533961184.webp)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.webp)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961174.webp)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961198.webp)
