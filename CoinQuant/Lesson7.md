@@ -42,7 +42,7 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2534183119.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534183118.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534183121.jpg)
-
+### [更多的API数据](https://github.com/bitbyte27/API-docs-OKEx.com/blob/master/API-For-Futures-CN/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93REST%20API.md)
 ## 7.2 从各交易所获取实时数据
 ![]()
 ![]()
