@@ -28,6 +28,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182864.jpg)
 * https://www.okb.com/market?product=ltc_btc
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182862.jpg)
+* trades
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182852.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182855.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534182869.jpg)
@@ -35,9 +36,10 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2534182849.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182866.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182871.jpg)
-![](https://img1.doubanio.com/view/photo/l/public/p2534183119.webp)
-![](https://img1.doubanio.com/view/photo/l/public/p2534183118.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2534183121.webp)
+* depth
+![](https://img1.doubanio.com/view/photo/l/public/p2534183119.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534183118.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534183121.jpg)
 
 ## 7.2 从各交易所获取实时数据
 ![]()
