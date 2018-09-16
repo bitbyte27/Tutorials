@@ -5,3 +5,4 @@
 * [GitHub：在GitHub上更新Fork的方法（2017-8-28）](在GitHub上更新Fork的方法.md)
 * [GitHub：将更新的Fork项目PullRequest给源项目（2017-8-29）](将更新的Fork项目PullRequest给源项目.md)
 * [GitHub：在GitHub上预览html网页效果的方法（2018-7-5）](在GitHub上预览html网页效果的方法.md)
+* [Git学习笔记](https://bitbyte27.github.io/Tutorials/Git/Git学习笔记.htm)
