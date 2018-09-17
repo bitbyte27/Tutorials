@@ -44,6 +44,18 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534183121.jpg)
 ### [更多的API数据](https://github.com/bitbyte27/API-docs-OKEx.com/blob/master/API-For-Futures-CN/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93REST%20API.md)
 ## 7.2 从各交易所获取实时数据
+![](https://img3.doubanio.com/view/photo/l/public/p2534311943.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534311936.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534311952.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534311937.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534311949.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534311951.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534311939.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534311946.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534413309.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534413318.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534413307.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413310.jpg)
 ![]()
 ![]()
 > To be continue……
