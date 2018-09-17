@@ -28,9 +28,12 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178979.jpg)
 
 ## 6.3 转变K线数据周期
-![]()
-![]()
-![]()
+![](https://img1.doubanio.com/view/photo/l/public/p2534413438.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413442.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413435.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413433.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
 ![]()
 ![]()
 ![]()
