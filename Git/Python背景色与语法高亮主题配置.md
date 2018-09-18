@@ -110,3 +110,5 @@ error-background = #293134
 * 有童鞋要问字体怎么配置？这个容易，在Highlighting选项卡旁边有个Fonts/Tabs选项卡，可以用来配置字体和缩进宽度的：
 
 ![png](pic/504727-20160908113835348-741516367.png)
+
+> [CSDN：Python背景色与语法高亮主题配置](https://blog.csdn.net/bitezijie/article/details/70135700)
