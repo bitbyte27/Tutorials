@@ -12,7 +12,8 @@
 
 在用户目录的.idlerc目录下新建名为config-highlight.cfg文件，并加入如下内容：
 
-> 
+<pre name="code" class="cfg">
+
 [tango]
 definition-foreground = #fce94f
 error-foreground = #fa8072
@@ -99,3 +100,13 @@ keyword-background = #293134
 string-foreground = #EC7600
 break-foreground = #E0E2E4
 error-background = #293134
+
+</pre>
+
+* 重启IDLE，依次选 Options -> Configure IDLE -> Highlighting 如下图：
+
+![ong](504727-20160908113653941-2046609769.png)
+
+* 有童鞋要问字体怎么配置？这个容易，在Highlighting选项卡旁边有个Fonts/Tabs选项卡，可以用来配置字体和缩进宽度的：
+
+![png](504727-20160908113835348-741516367.png)
