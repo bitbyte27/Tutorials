@@ -50,7 +50,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538763.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538754.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538758.jpg)
-## 6.4groupby分组
+## 6.4 groupby分组
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538762.jpg)
 ![]()
 ![]()
