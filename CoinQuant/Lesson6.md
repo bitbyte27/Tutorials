@@ -1,4 +1,8 @@
 # 第6课：Pandas高阶操作
+## 目录
+* [6.1 批量导入数据](# 6.1 批量导入数据)
+* [6.2 HDF存取数据](# 6.2 HDF存取数据)
+* [6.3 转变K线数据周期](# 6.3 转变K线数据周期)
 
 ## 6.1 批量导入数据
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961199.jpg)
@@ -34,6 +38,13 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413433.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534538153.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534538159.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534538162.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534538152.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534538166.jpg)
+![]()
+![]()
 ![]()
 ![]()
 ![]()
