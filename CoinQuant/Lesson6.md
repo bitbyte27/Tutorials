@@ -3,6 +3,7 @@
 * [6.1 批量导入数据](#61-批量导入数据)
 * [6.2 HDF存取数据](#62-hdf存取数据)
 * [6.3 转变K线数据周期](#63-转变k线数据周期)
+* [6.4 groupby分组](#64-groupby分组)
 
 ## 6.1 批量导入数据
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961199.jpg)
@@ -49,7 +50,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538763.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538754.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538758.jpg)
-## 6.4
+## 6.4groupby分组
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538762.jpg)
 ![]()
 ![]()
