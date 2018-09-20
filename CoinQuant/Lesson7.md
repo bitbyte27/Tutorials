@@ -73,14 +73,19 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534636684.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534636678.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534636683.jpg)
+### 抓取报错，尝试次数
 ![](https://img1.doubanio.com/view/photo/l/public/p2534636689.jpg)
+### get_candle_from_okex
 ![](https://img3.doubanio.com/view/photo/l/public/p2534636686.jpg)
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://img3.doubanio.com/view/photo/l/public/p2534638802.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534638788.jpg)
+### 重命名、时间转换（单位ms）、时区转换（东8区，GMT8）
+![](https://img1.doubanio.com/view/photo/l/public/p2534638788.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534638796.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534638797.jpg)
+## 7.3 获取实时数据（更多案例）
+### time out 需要翻墙
+![](https://img1.doubanio.com/view/photo/l/public/p2534638789.jpg)
 ![]()
 ![]()
 > To be continue……
