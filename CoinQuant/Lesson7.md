@@ -54,14 +54,23 @@
 ### urlopen,timeout
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311952.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311937.jpg)
+* urlopen(url, timeout=15).read()
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311949.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311951.jpg)
 ### decode
+* content = content.decode('utf-8')
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311939.jpg)
 ### json.load
+* json_data = json.loads(content)
+* df = pd.DataFrame(json_data, dtype='float')
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311946.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413309.jpg)
 ### df.T
+* df = df[['ticker']].T
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413318.jpg)
 ### get_url_content
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413310.jpg)
@@ -96,6 +105,13 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534638781.jpg)
 ### get_url_content2
 ![](https://img3.doubanio.com/view/photo/l/public/p2534638801.jpg)
+### binance币安交易所
+![](https://img1.doubanio.com/view/photo/l/public/p2534643148.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643150.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534643147.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643152.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534643157.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643156.jpg)
 ![]()
 ![]()
 ![]()
