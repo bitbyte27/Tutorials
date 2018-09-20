@@ -10,6 +10,11 @@
 ## 5.1 数据导入
 ### pd.read_csv
 ![](https://img3.doubanio.com/view/photo/l/public/p2533823204.jpg)
+* skiprows = 3  # 该参数代表跳过数据文件的的第3行不读入
+* nrows = 15  # nrows，只读取前n行数据，若不指定，读入全部的数据
+* index_col = ['candle_begin_time']  # 将指定列设置为index。若不指定，index默认为0, 1, 2, 3, 4...
+* error_bad_lines = False  # 当某行数据有问题时，报错。设定为False时即不报错，直接跳过该行。当数据比较脏乱的时候用这个。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533823200.jpg)
 
 ## 5.2 查看、选取数据
