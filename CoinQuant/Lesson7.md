@@ -120,6 +120,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534643555.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534643554.jpg)
 ## 7.4 自动下单（上）
+### ccxt官方文档：https://github.com/bitbyte27/ccxt
 ![]()
 ![]()
 ## 7.5 自动下单（下）
