@@ -8,12 +8,16 @@
 * [5.6 字符串、滚动操作](#56-字符串滚动操作)
 
 ## 5.1 数据导入
+### pd.read_csv
 ![](https://img3.doubanio.com/view/photo/l/public/p2533823204.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533823200.jpg)
 
 ## 5.2 查看、选取数据
+### df.sample(n=3) 随机抽取3行
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824004.jpg)
+### df.sample(fac=0.5) 抽取固定比例，可以用frac参数
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824010.jpg)
+### pd.set_option('expand_frame_repr', False) 当列太多时不换行
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824007.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824005.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824008.jpg)
