@@ -92,9 +92,21 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862021.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533862029.jpg)
+### 补全缺失值
+* df.fillna(value=0)  # 直接将缺失值赋值为固定的值。
+* df['12小时'].fillna(value=df['close'], inplace=True)  # 直接将缺失值赋值其他列的数据。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533862017.jpg)
+* df.fillna(method='ffill')  # 向上寻找最近的一个非空值，以该值来填充缺失的位置，全称forward fill，非常有用。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862025.jpg)
+* df.fillna(method='bfill')  # 向下寻找最近的一个非空值，以该值来填充确实的位置，全称backward fill。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862004.jpg)
+### 找出缺失值
+* df.notnull()  # 判断是否为空值，反向函数为isnull()。
+* df[df['12小时'].notnull()]  # 将'12小时'列为空的行输出。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533862019.jpg)
 
 ## 5.5 合并、去重、时间
