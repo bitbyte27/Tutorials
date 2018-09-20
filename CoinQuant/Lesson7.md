@@ -5,20 +5,20 @@
 
 ## 7.1 API接口概述
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181313.jpg)
-* https://coinmarketcap.com/
+### https://coinmarketcap.com/
 ![](https://img1.doubanio.com/view/photo/l/public/p2534181218.jpg)
-* https://coinmarketcap.com/rankings/exchanges/
-* https://coinmarketcap.com/rankings/exchanges/reported/
+### https://coinmarketcap.com/rankings/exchanges/
+### https://coinmarketcap.com/rankings/exchanges/reported/
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181145.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181143.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534181207.jpg)
-* https://www.okex.com/
+### https://www.okex.com/
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181161.jpg)
-* https://github.com/bitbyte27/API-docs-OKEx.com
+### https://github.com/bitbyte27/API-docs-OKEx.com
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181964.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534181938.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181923.jpg)
-* https://github.com/bitbyte27/API-docs-OKEx.com/blob/master/API-For-Futures-CN/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93REST%20API.md
+### https://github.com/bitbyte27/API-docs-OKEx.com/blob/master/API-For-Futures-CN/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93REST%20API.md
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181931.jpg)
 ### ticker
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182416.jpg)
@@ -47,14 +47,18 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534183121.jpg)
 ### [更多的API数据](https://github.com/bitbyte27/API-docs-OKEx.com/blob/master/API-For-Futures-CN/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93REST%20API.md)
 ## 7.2 从各交易所获取实时数据
+### url %s
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311943.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311936.jpg)
+### urlopen,timeout
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311952.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311937.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311949.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311951.jpg)
+### decode
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311939.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311946.jpg)
+### json.load
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413309.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413318.jpg)
 ### get_url_content
