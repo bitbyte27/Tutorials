@@ -19,7 +19,9 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824010.jpg)
 ### pd.set_option('expand_frame_repr', False) 当列太多时不换行
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824007.jpg)
+### pd.set_option("display.max_rows", 1000) 设定显示最大的行数
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824005.jpg)
+### pd.set_option('precision', 8) 浮点数的精度
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824008.jpg)
 
 ## 5.3 列操作
