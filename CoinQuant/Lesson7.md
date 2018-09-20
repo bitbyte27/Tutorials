@@ -86,6 +86,18 @@
 ## 7.3 获取实时数据（更多案例）
 ### time out 需要翻墙
 ![](https://img1.doubanio.com/view/photo/l/public/p2534638789.jpg)
+### 翻墙后，还需要用浏览器伪装
+![](https://img3.doubanio.com/view/photo/l/public/p2534638780.jpg)
+* headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
+* request = Request(url=url, headers=headers)
+* content = urlopen(request, timeout=15).read()
+<br>
+![](https://img3.doubanio.com/view/photo/l/public/p2534638781.jpg)
+### get_url_content2
+![](https://img3.doubanio.com/view/photo/l/public/p2534638801.jpg)
+![]()
+![]()
+![]()
 ![]()
 ![]()
 > To be continue……
