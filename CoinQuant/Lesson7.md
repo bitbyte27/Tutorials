@@ -4,17 +4,17 @@
 * [7.2 从各交易所获取实时数据](#72-从各交易所获取实时数据)
 
 ## 7.1 API接口概述
-![](https://img3.doubanio.com/view/photo/l/public/p2534181313.jpg)
 ### https://coinmarketcap.com/
-![](https://img1.doubanio.com/view/photo/l/public/p2534181218.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534181313.jpg)
 ### https://coinmarketcap.com/rankings/exchanges/
 ### https://coinmarketcap.com/rankings/exchanges/reported/
+![](https://img1.doubanio.com/view/photo/l/public/p2534181218.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181145.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181143.jpg)
-![](https://img1.doubanio.com/view/photo/l/public/p2534181207.jpg)
 ### https://www.okex.com/
-![](https://img3.doubanio.com/view/photo/l/public/p2534181161.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534181207.jpg)
 ### https://github.com/bitbyte27/API-docs-OKEx.com
+![](https://img3.doubanio.com/view/photo/l/public/p2534181161.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181964.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534181938.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534181923.jpg)
@@ -31,7 +31,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182421.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182423.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182864.jpg)
-* https://www.okb.com/market?product=ltc_btc
+### https://www.okb.com/market?product=ltc_btc
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182862.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534182852.jpg)
 ### trades
@@ -57,9 +57,10 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534311951.jpg)
 ### decode
 ![](https://img1.doubanio.com/view/photo/l/public/p2534311939.jpg)
-![](https://img3.doubanio.com/view/photo/l/public/p2534311946.jpg)
 ### json.load
+![](https://img3.doubanio.com/view/photo/l/public/p2534311946.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413309.jpg)
+### df.T
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413318.jpg)
 ### get_url_content
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413310.jpg)
