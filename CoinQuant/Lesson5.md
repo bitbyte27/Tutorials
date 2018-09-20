@@ -19,6 +19,15 @@
 
 ## 5.2 查看、选取数据
 ### df.sample(n=3) 随机抽取3行
+* df.shape  # 输出dataframe有多少行、多少列。
+* df.shape[0]  # 取行数量，相应的列数量就是df.shape[1]
+* df.columns  # 顺序输出每一列的名字，演示如何for语句遍历。
+* df.index  # 顺序输出每一行的名字，可以for语句遍历。
+* df.dtypes  # 数据每一列的类型不一样，比如数字、字符串、日期等。该方法输出每一列变量类型
+* df.head(3)  # 看前3行的数据，默认是5。与自然语言很接近
+* df.tail(3)  # 看最后3行的数据，默认是5。
+* df.sample(n=3)  # 随机抽取3行，想要去固定比例的话，可以用frac参数
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824004.jpg)
 ### df.sample(fac=0.5) 抽取固定比例，可以用frac参数
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824010.jpg)
