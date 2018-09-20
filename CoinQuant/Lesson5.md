@@ -45,13 +45,30 @@
 ### 统计函数：求均值
 * df[['close', 'volume']].mean(axis=0)  # 求每一列的均值，在行末新增一行显示统计结果。
 * df[['close', 'volume']].mean(axis=1)  # 求n列每行的均值，在列末新增一列显示统计结果。
+* axis=0或者1要搞清楚。axis=1，代表对整几列进行操作。axis=0（默认）代表对几行进行操作。实际中弄混很正常，到时候试一下就知道了。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824801.jpg)
+### max、min、std、count、median、quantile
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824826.jpg)
+### shift、dift
+* df['下周期close'] = df['close'].shift(-1)  # 读取上一行的数据，若参数设定为3，就是读取上三行的数据；若参数设定为-1，就是读取下一行的数据。
+* del df['下周期close']  # 删除某一列的方法。
+* df['涨跌'] = df['close'].diff(-1)  # 求本行数据和上一行数据相减得到的值。
+* df.drop(['涨跌'], axis=1, inplace=True)  # 删除某一列的另外一种方式，inplace参数指是否替代原来的df。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824818.jpg)
+### cum(cumulative)类函数
+* df['涨跌幅'] = df['close'].pct_change(1)  # 类似于diff，但是求的是两个数直接的比例，相当于求涨跌幅。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824812.jpg)
+* df['close_排名'] = df['close'].rank(ascending=True, pct=False)  # 输出排名。ascending参数代表是顺序还是逆序。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824819.jpg)
+* df['close_排名'] = df['close'].rank(ascending=True, pct=True)  # pct参数代表输出的是排名还是排名比例。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824806.jpg)
+* print(df['close'].value_counts())  # 计数。统计该列中每个元素出现的次数。返回的数据是Series。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824799.jpg)
 
 ## 5.4 筛选、缺失处理
