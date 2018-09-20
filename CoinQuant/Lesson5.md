@@ -67,14 +67,29 @@
 * df['close_排名'] = df['close'].rank(ascending=True, pct=True)  # pct参数代表输出的是排名还是排名比例。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533824806.jpg)
-* print(df['close'].value_counts())  # 计数。统计该列中每个元素出现的次数。返回的数据是Series。
+* df['close'].value_counts()  # 计数。统计该列中每个元素出现的次数。返回的数据是Series。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533824799.jpg)
 
 ## 5.4 筛选、缺失处理
+### 筛选操作，根据指定的条件，筛选出相关的数据。
+* df['symbol'] == 'AIDBTC'  # 判断交易对代码是否等于BTCUSD。
+* df[df['symbol'] == 'BTCUSD']  # 将判断为True的输出：选取交易对代码等于BTCUSD的行。
+* df[df['symbol'] == 'BTCUSD'].index  # 输出判断为True的行的index。
+* df[df['symbol'].isin(['BTCUSD', 'LTCUSD', 'ETHUSD'])]  # 选取代码等于'BTCUSD'或'LTCUSD '或'ETHUSD'的行。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862015.jpg)
+
+* df[df['close'] < 10.0])  # 选取收盘价小于10的行。
+* df[(df['close'] < 10.0) & (df['symbol'] == 'AIDUSD')]  # 两个条件，或者的话就是|。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862005.jpg)
+### 删除缺失值
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862012.jpg)
+* df.dropna(how='any')  # 将带有空值的行删除。how='any'意味着，该行中只要有一个空值，就会删除，可以改成all。
+* df.dropna(subset=['12小时', 'close'], how='all')  # subset参数指定在特定的列中判断空值。
+* all代表全部为空，才会删除该行；any只要一个为空，就删除该行。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533862021.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533862029.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533862017.jpg)
