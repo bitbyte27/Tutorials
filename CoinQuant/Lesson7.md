@@ -3,6 +3,8 @@
 * [7.1 API接口概述](#71-API接口概述)
 * [7.2 从各交易所获取实时数据](#72-从各交易所获取实时数据)
 * [7.3 获取实时数据（更多案例）](#73-获取实时数据更多案例)
+* [7.4 自动下单（上）](#74-自动下单上) 
+* [7.5 自动下单（下）](#75-自动下单下) 
 
 ## 7.1 API接口概述
 ### https://coinmarketcap.com/
@@ -112,8 +114,15 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534643152.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534643157.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534643156.jpg)
+### huobipro火币交易所
+![](https://img3.doubanio.com/view/photo/l/public/p2534643552.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643551.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643555.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534643554.jpg)
+## 7.4 自动下单（上）
 ![]()
 ![]()
+## 7.5 自动下单（下）
 ![]()
 ![]()
 ![]()
