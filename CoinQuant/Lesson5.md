@@ -161,7 +161,7 @@
 * df['symbol'].str.len()  # 计算字符串的长度,length。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948633.jpg)
-df['symbol'].str.strip()  # strip操作，把字符串两边的空格去掉。
+* df['symbol'].str.strip()  # strip操作，把字符串两边的空格去掉。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948627.jpg)
 * df['symbol'].str.contains('AID')  # 判断字符串中是否包含某些特定字符。
@@ -172,8 +172,15 @@ df['symbol'].str.strip()  # strip操作，把字符串两边的空格去掉。
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948635.jpg)
 
 ## 5.6 字符串、滚动操作
+### 时间类型处理
+* df.at[0, 'candle_begin_time']
+* type(df.at[0, 'candle_begin_time'])
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948630.jpg)
+* df['candle_begin_time'] = pd.to_datetime(df['candle_begin_time'])  # 将交易日期由字符串改为时间变量。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948632.jpg)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949080.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949075.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949078.jpg)
