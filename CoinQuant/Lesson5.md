@@ -129,15 +129,22 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947754.jpg)
 ### 对数据进行去重
-* df3.drop_duplicates(
-* subset=['candle_begin_time', 'symbol'],  # subset参数用来指定根据哪类类数据来判断是否重复。若不指定，则用全部列的数据来判断是否重复。
-* keep='first',  # 在去除重复值的时候，我们是保留上面一行还是下面一行？first保留上面一行，last保留下面一行，False就是一行都不保留。
-* inplace=True)
+* df3.drop_duplicates(subset=['candle_begin_time', 'symbol'], keep='first', inplace=True)
+* subset参数用来指定根据哪类类数据来判断是否重复。若不指定，则用全部列的数据来判断是否重复。
+* 在去除重复值的时候，我们是保留上面一行还是下面一行？first保留上面一行，last保留下面一行，False就是一行都不保留。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947756.jpg)
+* df.reset_index(inplace=True)  # 重置index。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947768.jpg)
+* * df.reset_index(inplace=True, drop=True)  # 重置index，删除旧的索引列。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947765.jpg)
+* df.rename(columns={'close': '收盘价', 'open': '开盘价'})  # rename函数给变量修改名字。使用dict将要修改的名字传给columns参数。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947767.jpg)
+* df.empt)  # 判断一个df是不是为空，此处输出不为空。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948628.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948626.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948629.jpg)
