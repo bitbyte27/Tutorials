@@ -134,19 +134,22 @@
 * 在去除重复值的时候，我们是保留上面一行还是下面一行？first保留上面一行，last保留下面一行，False就是一行都不保留。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947756.jpg)
+### 重设索引
 * df.reset_index(inplace=True)  # 重置index。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947768.jpg)
 * df.reset_index(inplace=True, drop=True)  # 重置index，删除旧的索引列。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947765.jpg)
+### 修改字段名（列名）
 * df.rename(columns={'close': '收盘价', 'open': '开盘价'})  # rename函数给变量修改名字。使用dict将要修改的名字传给columns参数。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947767.jpg)
+### 判断DataFrame是否非空
 * df.empt  # 判断一个df是不是为空，此处输出不为空。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948628.jpg)
-pd.DataFrame().empty  # pd.DataFrame()创建一个空的DataFrame，此处输出为空。
+* pd.DataFrame().empty  # pd.DataFrame()创建一个空的DataFrame，此处输出为空。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948626.jpg)
 ### 字符串处理
