@@ -199,17 +199,31 @@
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949069.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949065.jpg)
+### rolling和expanding简直是为量化领域量身定制的方法，经常会用到。
 ### 使用rolling函数
 * df['收盘价_3天均值'] = df['close'].rolling(3).mean()
 * df[['close', '收盘价_3天均值']]
-* rolling(n)即为取最近n行数据的意思，只计算这n行数据。后面可以接各类计算函数，例如max、min、std等
+* rolling(n)即为取最近n行数据的意思，只计算这n行数据。后面可以接各类计算函数，例如max、min、std等。
 * df['close'].rolling(5).max()
 * df['close'].rolling(5).min()
 * df['close'].rolling(5).std()
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949059.jpg)
+### 使用expanding操作
+* rolling可以计算每天的最近3天的均值，如果想计算每天的从一开始至今的均值，应该如何计算？
+* df['收盘价_至今均值'] = df['close'].expanding().mean()
+* df[['close', '收盘价_至今均值']]
+* expanding即为取从头至今的数据。后面可以接各类计算函数。
+* df['close'].expanding().max()
+* df['close'].expanding().min()
+* df['close'].expanding().std()
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949058.jpg)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949076.jpg)
+### 输出到本地文件
+* df.to_csv('output.csv', index=False)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949071.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949098.jpg)
 
