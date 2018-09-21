@@ -6,16 +6,35 @@
 * [6.4 groupby分组](#64-groupby分组)
 
 ## 6.1 批量导入数据
+### 遍历文件
+* import os
+* pd.set_option('expand_frame_repr', False)  # 当列太多时不换行
+* 系统自带函数os.walk，用于遍历文件夹中的所有文件，os是python自带的系统库。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961199.jpg)
+* for root, dirs, files in os.walk('/Users/jxing/Desktop/coin_quant_class/data'):
+* # root输出文件夹，dirs输出root下所有的文件夹，files输出root下的所有的文件。
+* print('root:', root)
+* print('dirs:', dirs)
+* print('files:', files)
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961187.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961172.jpg)
+### 批量读取文件名称
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961196.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961191.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961184.jpg)
+### 遍历文件名，批量导入数据
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961174.jpg)
+* all_data = all_data.append(df, ignore_index=True)  # 注意此时若一下子导入很多文件，可能会内存溢出。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961198.jpg)
+### 对数据进行排序
+* all_data.sort_values(by=['candle_begin_time'], inplace=True)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961210.jpg)
+### 将数据存入csv文件中
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961211.jpg)
 
 ## 6.2 HDF存取数据
