@@ -13,7 +13,7 @@
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961199.jpg)
 * for root, dirs, files in os.walk('/Users/jxing/Desktop/coin_quant_class/data'):
-* # root输出文件夹，dirs输出root下所有的文件夹，files输出root下的所有的文件。
+* root输出文件夹，dirs输出root下所有的文件夹，files输出root下的所有的文件。
 * print('root:', root)
 * print('dirs:', dirs)
 * print('files:', files)
