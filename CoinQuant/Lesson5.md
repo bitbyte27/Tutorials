@@ -119,7 +119,7 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947757.jpg)
 ### 选取行列，合并两个DataFrame
 * df1 = df.iloc[0:10][['candle_begin_time', 'symbol', 'close', 'volume']]
-df2 = df.iloc[5:15][['candle_begin_time', 'symbol', 'close', 'volume']]
+* df2 = df.iloc[5:15][['candle_begin_time', 'symbol', 'close', 'volume']]
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947763.jpg)
 * df1.append(df2)  # append操作，将df1和df2上下拼接起来。注意观察拼接之后的index。index可以重复。
@@ -130,9 +130,9 @@ df2 = df.iloc[5:15][['candle_begin_time', 'symbol', 'close', 'volume']]
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947754.jpg)
 ### 对数据进行去重
 * df3.drop_duplicates(
-*     subset=['candle_begin_time', 'symbol'],  # subset参数用来指定根据哪类类数据来判断是否重复。若不指定，则用全部列的数据来判断是否重复。
-*     keep='first',  # 在去除重复值的时候，我们是保留上面一行还是下面一行？first保留上面一行，last保留下面一行，False就是一行都不保留。
-*     inplace=True)
+* subset=['candle_begin_time', 'symbol'],  # subset参数用来指定根据哪类类数据来判断是否重复。若不指定，则用全部列的数据来判断是否重复。
+* keep='first',  # 在去除重复值的时候，我们是保留上面一行还是下面一行？first保留上面一行，last保留下面一行，False就是一行都不保留。
+* inplace=True)
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947756.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947768.jpg)
