@@ -137,20 +137,35 @@
 * df.reset_index(inplace=True)  # 重置index。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947768.jpg)
-* * df.reset_index(inplace=True, drop=True)  # 重置index，删除旧的索引列。
+* df.reset_index(inplace=True, drop=True)  # 重置index，删除旧的索引列。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533947765.jpg)
 * df.rename(columns={'close': '收盘价', 'open': '开盘价'})  # rename函数给变量修改名字。使用dict将要修改的名字传给columns参数。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533947767.jpg)
-* df.empt)  # 判断一个df是不是为空，此处输出不为空。
+* df.empt  # 判断一个df是不是为空，此处输出不为空。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948628.jpg)
+pd.DataFrame().empty  # pd.DataFrame()创建一个空的DataFrame，此处输出为空。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948626.jpg)
+### 字符串处理
+* df['symbol'].str[:3]
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948629.jpg)
+* df['symbol'].str.upper()  # 加上str之后可以使用常见的字符串函数对整列进行操作。
+* df['symbol'].str.lower()
+* df['symbol'].str.len()  # 计算字符串的长度,length。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948633.jpg)
+df['symbol'].str.strip()  # strip操作，把字符串两边的空格去掉。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948627.jpg)
+* df['symbol'].str.contains('AID')  # 判断字符串中是否包含某些特定字符。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533948638.jpg)
+* df['symbol'].str.replace('AID', 'AVT')  # 进行替换，将sz替换成sh。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948635.jpg)
 
 ## 5.6 字符串、滚动操作
