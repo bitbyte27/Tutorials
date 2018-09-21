@@ -180,12 +180,33 @@
 * df['candle_begin_time'] = pd.to_datetime(df['candle_begin_time'])  # 将交易日期由字符串改为时间变量。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533948632.jpg)
+* df['candle_begin_time'].dt.year  # 输出这个日期的年份。相应的month是月份，day是天数，还有hour, minute, second。
+* df['candle_begin_time'].dt.week  # 这一天是一年当中的第几周。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949080.jpg)
+* df['candle_begin_time'].dt.dayofyear  # 这一天是一年当中的第几天。
+* df['candle_begin_time'].dt.dayofweek  # 这一天是这一周当中的第几天，0代表星期一。
+* df['candle_begin_time'].dt.weekday  # 和上面函数相同，更加常用。
+* df['candle_begin_time'].dt.weekday_name  # 和上面函数相同，返回的是星期几的英文，用于报表的制作。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949075.jpg)
+* df['candle_begin_time'].dt.days_in_month  # 这一天所在月份有多少天。
+* df['candle_begin_time'].dt.is_month_start  # 这一天是否是该月的开头，是否存在is_month_end？
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949078.jpg)
+* df['candle_begin_time'] + pd.Timedelta(hours=1)  # 增加一天，Timedelta用于表示时间差数据，
+* [weeks, days, hours, minutes, seconds, milliseconds, microseconds, nanoseconds]。
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949069.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949065.jpg)
+### 使用rolling函数
+* df['收盘价_3天均值'] = df['close'].rolling(3).mean()
+* df[['close', '收盘价_3天均值']]
+* rolling(n)即为取最近n行数据的意思，只计算这n行数据。后面可以接各类计算函数，例如max、min、std等
+* df['close'].rolling(5).max()
+* df['close'].rolling(5).min()
+* df['close'].rolling(5).std()
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949059.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533949058.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533949076.jpg)
