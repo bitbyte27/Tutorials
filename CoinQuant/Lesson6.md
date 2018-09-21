@@ -38,8 +38,17 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961211.jpg)
 
 ## 6.2 HDF存取数据
+### 将数据存入hdf文件中
+* all_data.to_hdf('.h5', key='all_data', mode='w')
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534180347.jpg)
+### 从hdf中读取文件
+* all_data = pd.read_hdf(.h5', key='all_data')
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534180332.jpg)
+### 创建hdf文件
+* h5_store = pd.HDFStore('eos_data.h5', mode='w')
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534180335.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178845.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179421.jpg)
