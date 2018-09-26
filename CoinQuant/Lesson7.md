@@ -128,7 +128,7 @@
 ### print(ccxt.exchanges)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535178562.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535178576.jpg)
-### www.binance.com ，设置API
+### 币安交易所，www.binance.com ，设置API
 ![](https://img3.doubanio.com/view/photo/l/public/p2535179001.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2535179018.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2535179009.jpg)
@@ -185,8 +185,53 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180243.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180241.jpg)
 ## 7.5 自动下单（下）
-![]()
-![]()
+### 返回内容的数据结构：https://github.com/ccxt/ccxt/wiki/Manual#placing-orders
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535180754.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535180765.jpg)
+* order_info['id']
+* order_info['info']
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535180752.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535180767.jpg)
+### 市价单，市价单不需要输入价格
+* order_info = binance.create_market_buy_order(symbol=symbol, amount=amount)  # 买单
+* order_info = binance.create_market_sell_order(symbol=symbol, amount=amount)  # 卖单
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535180743.jpg)
+### 根据订单号查询订单信息
+* order_info = binance.fetch_order(id='20508061', symbol='EOS/ETH')
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535180749.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535180761.jpg)
+* order_info['remaining']
+* order_info['status']
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535180768.jpg)
+### 根据交易对查询订单信息
+* order_info = binance.fetch_orders(symbol='EOS/ETH', limit=10)  # limit参数控制返回最近的几条。
+* for i in order_info:
+* print(i['datetime'], i['status'])
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535181094.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535181088.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535181084.jpg)
+### 返回尚未成交的订单
+* order_info = binance.fetch_open_orders(symbol='EOS/ETH', limit=10)  # limit参数控制返回最近的几条。
+* for i in order_info:
+* print(i['datetime'], i['status'])
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535181087.jpg)
+### 撤单
+* order_info = binance.cancel_order(id='20508061', symbol='EOS/ETH')
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535181114.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535181089.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535181092.jpg)
+* order_info = binance.fetch_order(id='20508061', symbol='EOS/ETH')
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535181106.jpg)
+### bitfinex交易所
 ![]()
 ![]()
 ![]()
