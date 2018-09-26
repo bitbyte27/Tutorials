@@ -171,6 +171,7 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2535179651.jpg)
 ### 限价单
 * order_info = binance.create_market_buy_order(symbol=symbol, amount=amount)  # 买单
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180242.jpg)
 * 因为没有金额，所以不能挂单，会报错
 
@@ -180,6 +181,7 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2535180249.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180244.jpg)
 * 修改数量、金额后再挂单
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180243.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535180241.jpg)
 ## 7.5 自动下单（下）
