@@ -128,10 +128,25 @@
 ### print(ccxt.exchanges)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535178562.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535178576.jpg)
-![]()
-![]()
-![]()
-![]()
+### www.binance.com ，设置API
+![](https://img3.doubanio.com/view/photo/l/public/p2535179001.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535179018.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535179009.jpg)
+### 创建币安交易所
+* binance = ccxt.binance()
+* binance.apiKey = ''
+* binance.secret = ''
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535179014.jpg)
+### 获取账户资产
+* balance = binance.fetch_balance()
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535179006.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535179013.jpg)
+* balance['info']  # 交易所原始返回内容
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535179007.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535179000.jpg)
 ![]()
 ![]()
 ## 7.5 自动下单（下）
