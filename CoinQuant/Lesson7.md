@@ -143,13 +143,49 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535179006.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535179013.jpg)
-* balance['info']  # 交易所原始返回内容
+* balance['info']  # 交易所原始返回内容。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535179007.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535179000.jpg)
-![]()
-![]()
+* balance['free']  # 可以使用的资产数量。
+* balance['used']  # 已经使用的资产数量，例如正在挂单交易的资产。
+* balance['total']  # 总资产数量。
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535179638.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535179636.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535179634.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535179639.jpg)
+* balance['EOS']  # EOS这个资产的数。
+* balance['USDT']  # USDT这个资产的数量。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535179643.jpg)
+### 下单交易
+* symbol = 'EOS/ETH'
+* pirce = 0.03
+* amount = 20
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535179650.jpg)
+### 查看交易所实时下单情况
+![](https://img3.doubanio.com/view/photo/l/public/p2535179646.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535179647.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535179651.jpg)
+### 限价单
+* order_info = binance.create_market_buy_order(symbol=symbol, amount=amount)  # 买单
+![](https://img3.doubanio.com/view/photo/l/public/p2535180242.jpg)
+* 因为没有金额，所以不能挂单，会报错
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535180247.jpg)
+* order_info = binance.create_market_sell_order(symbol=symbol, amount=amount)  # 卖单
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535180249.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535180244.jpg)
+* 修改数量、金额后再挂单
+![](https://img3.doubanio.com/view/photo/l/public/p2535180243.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535180241.jpg)
 ## 7.5 自动下单（下）
+![]()
+![]()
+![]()
 ![]()
 ![]()
 ![]()
