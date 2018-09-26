@@ -231,9 +231,47 @@
 * order_info = binance.fetch_order(id='20508061', symbol='EOS/ETH')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535181106.jpg)
-### bitfinex交易所
-![]()
-![]()
+### 创建bitfinex交易所
+* bitfinex = ccxt.bitfinex()
+* bitfinex.apiKey = ''
+* bitfinex.secret = ''
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535181101.jpg)
+### 获取bitfinex账户资产
+* balance_exchange = bitfinex.fetch_balance()  # 获取exchange账户资产。
+* balance_exchange['info']
+* balance_exchange['free']
+* balance_exchange['used']
+* balance_exchange['total']
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535185528.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535185527.jpg)
+* balance_margin = bitfinex.fetch_balance({'type': 'trading'})  # 获取margin账户资产。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535185530.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535184376.jpg)
+* print(balance_margin['USD'])  # USD这个资产的数量
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535185531.jpg)
+### 下单交易
+* symbol = 'BTC/USD'
+* pirce = 3000
+* amount = 10
+### 下单类型
+* market：margin交易市价单
+* limit：margin交易限价单
+* exchange market：exchange交易市价单
+* exchange limit：exchange交易限价单
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535185534.jpg)
+### 限价单
+* order_info = bitfinex.create_limit_buy_order(symbol, amount, pirce, {'type': 'limit'})  # margin买单。
+* print(order_info['id'])
+* print(order_info['info'])
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535185533.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535185536.jpg)
+### 查询订单信息
 ![]()
 ![]()
 > To be continue……
