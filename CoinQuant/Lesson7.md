@@ -121,6 +121,17 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534643554.jpg)
 ## 7.4 自动下单（上）
 ### ccxt官方文档：https://github.com/bitbyte27/ccxt
+![](https://img3.doubanio.com/view/photo/l/public/p2535178575.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535178580.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535178563.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535178569.jpg)
+### print(ccxt.exchanges)
+![](https://img3.doubanio.com/view/photo/l/public/p2535178562.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535178576.jpg)
+![]()
+![]()
+![]()
+![]()
 ![]()
 ![]()
 ## 7.5 自动下单（下）
