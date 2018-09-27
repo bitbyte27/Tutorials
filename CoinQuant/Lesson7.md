@@ -280,7 +280,28 @@
 * print(order_info['info'])
 ### 查询订单信息
 * order_info = bitfinex.fetch_order(id='10210315895', symbol='BTC/USD')
+* 返回内容的数据结构：https://github.com/ccxt/ccxt/wiki/Manual#order-structure
+* print(order_info)
+* print(order_info['remaining'])
+* print(order_info['status'])
 
-![]()
-![]()
-> To be continue……
+![](https://img3.doubanio.com/view/photo/l/public/p2535187913.jpg)
+### 根据交易对查询订单信息
+* bitfinex没有fetchOrders这个方法
+* print(bitfinex.has)
+* print(bitfinex.has['fetchOrders'])
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535187759.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535187741.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535187850.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535187854.jpg)
+### 撤单
+* order_info = bitfinex.cancel_order(id='10210315895', symbol='BTC/USD')
+* print(order_info)
+* order_info = bitfinex.fetch_order(id='10210315895', symbol='BTC/USD')
+* print(order_info['status'])
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535187742.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535187761.jpg)
+
+> END
