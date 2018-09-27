@@ -266,12 +266,21 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2535185534.jpg)
 ### 限价单
 * order_info = bitfinex.create_limit_buy_order(symbol, amount, pirce, {'type': 'limit'})  # margin买单。
+* order_info = bitfinex.create_limit_sell_order(symbol, amount, pirce, {'type': 'limit'})  # margin卖单
 * print(order_info['id'])
 * print(order_info['info'])
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535185533.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535185536.jpg)
+### 市价单，市价单不需要输入价格
+* order_info = bitfinex.create_market_buy_order(symbol, amount, {'type': 'market'})  # margin买单。
+* order_info = bitfinex.create_market_sell_order(symbol, amount, {'type': 'market'})  # margin卖单。
+### 返回内容的数据结构：https://github.com/ccxt/ccxt/wiki/Manual#placing-orders
+* print(order_info['id'])
+* print(order_info['info'])
 ### 查询订单信息
+* order_info = bitfinex.fetch_order(id='10210315895', symbol='BTC/USD')
+
 ![]()
 ![]()
 > To be continue……
