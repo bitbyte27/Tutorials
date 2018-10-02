@@ -67,10 +67,12 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2535704187.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2535704176.jpg)
 ### 合并做多做空信号，去除重复信号
-* df['signal'] = df[['signal_long', 'signal_short']].sum(axis=1, skipna=True)
+* df.drop_duplicates(subset=['signal_long', 'signal_short'], inplace=True)
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535704183.jpg)
-![]()
+* df['signal'] = df[['signal_long', 'signal_short']].sum(axis=1, skipna=True)
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535704177.jpg)
 ![]()
 ![]()
 ![]()
