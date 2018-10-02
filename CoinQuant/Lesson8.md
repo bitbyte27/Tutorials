@@ -73,15 +73,40 @@
 * df['signal'] = df[['signal_long', 'signal_short']].sum(axis=1, skipna=True)
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535704177.jpg)
-![](https://img3.doubanio.com/view/photo/l/public/p2535704184.webp)
-* temp = df[df['signal'].notnull()][['signal']]
+![](https://img3.doubanio.com/view/photo/l/public/p2535704184.jpg)
+* temp = df[df['signal'].notnull()][['signal']]  # 删除空值
 
-![](https://img3.doubanio.com/view/photo/l/public/p2535704185.webp)
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://img3.doubanio.com/view/photo/l/public/p2535704185.jpg)
+* temp = temp[temp['signal'] != temp['signal'].shift(1)]  # 寻找与上一行不同的行，删除重复信号
+![](https://img3.doubanio.com/view/photo/l/public/p2535704174.jpg)
 
+* df['signal'] = temp['signal']
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535705960.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535705973.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535705952.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535705979.jpg)
+* df.drop(['median', 'std', 'upper', 'lower', 'signal_long', 'signal_short'], axis=1, inplace=True)
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535705969.jpg)
+### 由signal计算出实际的每天持有仓位
+### signal的计算运用了收盘价，是每根K线收盘之后产生的信号，到第二根开盘的时候才买入，仓位才会改变。
+* df['pos'] = df['signal'].shift()
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535705977.jpg)
+* df['pos'].fillna(method='ffill', inplace=True)
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535705961.jpg)
+* df['pos'].fillna(value=0, inplace=True)  # 将初始行数的position补全为0。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535705964.jpg)
+### 将数据存入hdf文件中
+* df.to_hdf('/Users/jxing/Desktop/coin_quant_class/data/class8/eth_bolling_signal.h5', key='all_data', mode='w')
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535705967.jpg)
+
+![]()
+![]()
+![]()
+![]()
 > To be continue……
