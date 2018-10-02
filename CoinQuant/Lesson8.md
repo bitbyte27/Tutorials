@@ -1,7 +1,7 @@
 # 第8课：择时策略-回测
 ## 目录
 * [8.1 产生交易信号](#81-产生交易信号)
-* [8.2 计算资金曲线准备工作]()
+* [8.2 计算资金曲线准备工作](#82-计算资金曲线准备工作)
 * [8.3 计算资金曲线]()
 * [8.4 爆仓情况处理]()
 * [8.5 寻找最优参数]()
@@ -77,7 +77,8 @@
 * temp = df[df['signal'].notnull()][['signal']]  # 删除空值
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535704185.jpg)
-* temp = temp[temp['signal'] != temp['signal'].shift(1)]  # 寻找与上一行不同的行，删除重复信号
+* temp = temp[temp['signal'] != temp['signal'].shift(1)]  # 寻找与上一行不同的行，删除重复信号。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2535704174.jpg)
 
 * df['signal'] = temp['signal']
@@ -104,7 +105,7 @@
 * df.to_hdf('/Users/jxing/Desktop/coin_quant_class/data/class8/eth_bolling_signal.h5', key='all_data', mode='w')
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535705967.jpg)
-
+## 8.2 计算资金曲线准备工作
 ![]()
 ![]()
 ![]()
