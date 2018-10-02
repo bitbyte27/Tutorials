@@ -43,11 +43,33 @@
 * df['lower'] = df['median'] - m * df['std']
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535257899.jpg)
+### 找出做多信号
+* condition1 = df['close'] > df['upper']  # 当前K线的收盘价 > 上轨。
+* condition2 = df['close'].shift(1) <= df['upper'].shift(1)  # 之前K线的收盘价 <= 上轨。
+* df.loc[condition1 & condition2, 'signal_long'] = 1  # 将产生做多信号的那根K线的signal设置为1，1代表做多。
 
-![]()
-![]()
-![]()
-![]()
+![](https://img1.doubanio.com/view/photo/l/public/p2535704189.jpg)
+### 找出做多平仓信号
+* condition1 = df['close'] < df['median']  # 当前K线的收盘价 < 中轨。
+* condition2 = df['close'].shift(1) >= df['median'].shift(1)  # 之前K线的收盘价 >= 中轨。
+* df.loc[condition1 & condition2, 'signal_long'] = 0  # 将产生平仓信号当天的signal设置为0，0代表平仓。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535704180.jpg)
+### 找出做空信号
+* condition1 = df['close'] < df['lower']  # 当前K线的收盘价 < 下轨。
+* condition2 = df['close'].shift(1) >= df['lower'].shift(1)  # 之前K线的收盘价 >= 下轨。
+* df.loc[condition1 & condition2, 'signal_short'] = -1  # 将产生做空信号的那根K线的signal设置为-1，-1代表做空。
+### 找出做空平仓信号
+* condition1 = df['close'] > df['median']  # 当前K线的收盘价 > 中轨。
+* condition2 = df['close'].shift(1) <= df['median'].shift(1)  # 之前K线的收盘价 <= 中轨。
+* df.loc[condition1 & condition2, 'signal_short'] = 0  # 将产生平仓信号当天的signal设置为0，0代表平仓。
+
+![](https://img1.doubanio.com/view/photo/l/public/p2535704187.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535704176.jpg)
+### 合并做多做空信号，去除重复信号
+* df['signal'] = df[['signal_long', 'signal_short']].sum(axis=1, skipna=True)
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535704183.jpg)
 ![]()
 ![]()
 ![]()
