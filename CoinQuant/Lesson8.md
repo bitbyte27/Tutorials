@@ -106,8 +106,13 @@
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535705967.jpg)
 ## 8.2 计算资金曲线准备工作
-![]()
-![]()
+### 导入数据
+* df = pd.read_hdf('/Users/jxing/Desktop/coin_quant_class/data/class8/eth_bolling_signal.h5', key='all_data')
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535719966.jpg)
+### 根据pos计算资金曲线
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535719963.webp)
 ![]()
 ![]()
 > To be continue……
