@@ -111,8 +111,30 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2535719966.jpg)
 ### 根据pos计算资金曲线
+### 计算涨跌幅
+* df['change'] = df['close'].pct_change(1)  # 根据收盘价计算涨跌幅。
 
-![](https://img3.doubanio.com/view/photo/l/public/p2535719963.webp)
+![](https://img3.doubanio.com/view/photo/l/public/p2535719963.jpg)
+* df['buy_at_open_change'] = df['close'] / df['open'] - 1  # 从今天开盘买入，到今天收盘的涨跌幅。
+* df['sell_next_open_change'] = df['open'].shift(-1) / df['close'] - 1  # 从今天收盘到明天开盘的涨跌幅。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535719960.jpg)
+* df.at[len(df) - 1, 'sell_next_open_change'] = 0  # 令最后一个为零。
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535719955.jpg)
+### 选取时间段
+* df = df[df['candle_begin_time'] >= pd.to_datetime('2017-01-01')]
+* df.reset_index(inplace=True, drop=True)
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535719956.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2535719958.jpg)
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 ![]()
 ![]()
 > To be continue……
