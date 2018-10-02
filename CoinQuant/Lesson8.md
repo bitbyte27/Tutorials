@@ -65,7 +65,7 @@
 * df.loc[condition1 & condition2, 'signal_short'] = 0  # 将产生平仓信号当天的signal设置为0，0代表平仓。
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535704187.jpg)
-![](https://img3.doubanio.com/view/photo/l/public/p2535704176.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2535704176.webp)
 ### 合并做多做空信号，去除重复信号
 * df.drop_duplicates(subset=['signal_long', 'signal_short'], inplace=True)
 
@@ -73,8 +73,10 @@
 * df['signal'] = df[['signal_long', 'signal_short']].sum(axis=1, skipna=True)
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2535704177.jpg)
-![]()
-![]()
+![](https://img3.doubanio.com/view/photo/l/public/p2535704184.webp)
+* temp = df[df['signal'].notnull()][['signal']]
+
+![](https://img3.doubanio.com/view/photo/l/public/p2535704185.webp)
 ![]()
 ![]()
 ![]()
