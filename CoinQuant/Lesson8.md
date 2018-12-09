@@ -22,7 +22,7 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2542084203.jpg)
 <br>
-[极简方法将日线数据转为周线、月线或其他周期](极简方法将日线数据转为周线、月线或其他周期.py)
+[极简方法将日线数据转为周线、月线或其他周期](class8/极简方法将日线数据转为周线、月线或其他周期.py)
 * df = df[df['candle_begin_time'] >= pd.to_datetime('2017-01-01')]
 * df.reset_index(inplace=True, drop=True)
 
