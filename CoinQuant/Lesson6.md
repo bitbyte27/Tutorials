@@ -44,9 +44,10 @@
 * ,parse_dates=['candle_begin_time'])
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.jpg)
-![](https://img3.doubanio.com/view/photo/l/public/p2533961174.jpg)
-* all_data = all_data.append(df, ignore_index=True)  # 注意此时若一下子导入很多文件，可能会内存溢出。
+* 合并数据
+* all_data = all_data.append(df, ignore_index=True)  # 注意此时若一下子导入很多文件，可能会内存溢出
 
+![](https://img3.doubanio.com/view/photo/l/public/p2533961174.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961198.jpg)
 ### 对数据进行排序
 * all_data.sort_values(by=['candle_begin_time'], inplace=True)
