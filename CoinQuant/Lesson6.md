@@ -39,7 +39,9 @@
 * for file in sorted(file_list):
 * print(file)
 * 导入数据
-* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class6/BITFINEX/EOSUSD/' + file,skiprows=1,parse_dates=['candle_begin_time'])
+* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class6/BITFINEX/EOSUSD/' + file
+* ,skiprows=1
+* ,parse_dates=['candle_begin_time'])
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961174.jpg)
