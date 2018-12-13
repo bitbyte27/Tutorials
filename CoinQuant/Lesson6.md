@@ -81,6 +81,9 @@
 * parse_dates=['candle_begin_time'])
                      
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179421.jpg)
+### 存储数据到hdf
+* h5_store['eos_'+date] = df
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178881.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179411.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178851.jpg)
