@@ -85,6 +85,13 @@
 * h5_store['eos_'+date] = df
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178881.jpg)
+### 关闭hdf文件
+* h5_store.close()
+### 创建hdf文件
+* h5_store = pd.HDFStore('eos_data.h5', mode='r')
+* w：
+* r：
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179411.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178851.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178883.jpg)
