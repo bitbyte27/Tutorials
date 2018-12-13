@@ -39,9 +39,9 @@
 * for file in sorted(file_list):
 * print(file)
 * 导入数据
-* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class6/BITFINEX/EOSUSD/' + file
-* ,skiprows=1
-* ,parse_dates=['candle_begin_time'])
+* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class6/BITFINEX/EOSUSD/' + file,
+* skiprows=1,
+* parse_dates=['candle_begin_time'])
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.jpg)
 * 合并数据
@@ -69,7 +69,17 @@
 * h5_store = pd.HDFStore('eos_data.h5', mode='w')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534180335.jpg)
+### 批量导入并且存储数据
+* for file in sorted(file_list):
+* date = file.split('_')[2]
+* print(date)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178845.jpg)
+### 导入数据
+* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class6/BITFINEX/EOSUSD/' + file,
+* skiprows=1,
+* parse_dates=['candle_begin_time'])
+                     
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179421.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178881.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179411.jpg)
