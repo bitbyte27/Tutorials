@@ -21,6 +21,13 @@
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961187.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961172.jpg)
 ### 批量读取文件名称
+* file_list = []
+* for root, dirs, files in os.walk('/Users/jxing/Desktop/coin_quant_class/data/class6'):
+* # 当files不为空的时候
+* if files:
+* for f in files:
+* if f.endswith('.csv'):
+* file_list.append(f)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961196.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961191.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961184.jpg)
