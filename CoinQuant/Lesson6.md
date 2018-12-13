@@ -19,6 +19,10 @@
 * print('files:', files)
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2533961187.jpg)
+* for f in files:
+* if f.endswith('.csv'):
+* file_list.append(f)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961172.jpg)
 ### 批量读取文件名称
 * file_list = []
