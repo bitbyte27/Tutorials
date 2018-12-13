@@ -25,14 +25,14 @@
 * for root, dirs, files in os.walk('/Users/jxing/Desktop/coin_quant_class/data/class6'):
 * 当files不为空的时候
 * if files:
-* for f in files:
-* if f.endswith('.csv'):
-* file_list.append(f)
+* print(files)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961196.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961191.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961184.jpg)
 ### 遍历文件名，批量导入数据
 * all_data = pd.DataFrame()
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961185.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2533961174.jpg)
 * all_data = all_data.append(df, ignore_index=True)  # 注意此时若一下子导入很多文件，可能会内存溢出。
