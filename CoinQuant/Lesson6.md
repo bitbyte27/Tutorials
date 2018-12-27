@@ -111,8 +111,20 @@
 
 ## 6.3 转变K线数据周期
 ![](https://img1.doubanio.com/view/photo/l/public/p2534413438.jpg)
+### 从hdf中读取1分钟数据
+* df = pd.read_hdf('/Users/jxing/Desktop/coin_quant_class/data/class6/eos_1min_data.h5', key='all_data')
+### 选取某一时间段
+* df = df[df['candle_begin_time'] >= pd.to_datetime('2017-03-01')]
+* print(df.head(10))
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413442.jpg)
+### 《数据周线转换示意图》
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413435.jpg)
+### 第一种方法：将1分钟数据转为5分钟数据
+### 将candle_begin_time设定为index
+* df.set_index('candle_begin_time', inplace=True)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413433.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
