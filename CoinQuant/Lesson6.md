@@ -87,10 +87,11 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178881.jpg)
 ### 关闭hdf文件
 * h5_store.close()
+### 读取hdf数据
 ### 创建hdf文件
 * h5_store = pd.HDFStore('eos_data.h5', mode='r')
-* w：
-* r：
+* w：写入
+* r：读取
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179411.jpg)
 ### h5_store中的key
