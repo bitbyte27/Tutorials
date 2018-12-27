@@ -133,16 +133,21 @@
 * last：取这5分钟的最后一行数据
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
-
-![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
-# 开、高、低的价格，成交量
+### 开、高、低的价格，成交量
 * period_df['open'] = df['open'].resample(rule=rule_type).first()
 * period_df['high'] = df['high'].resample(rule=rule_type).max()
 * period_df['low'] = df['low'].resample(rule=rule_type).min()
 * period_df['volume'] = df['volume'].resample(rule=rule_type).sum()
 * period_df = period_df[['open', 'high', 'low', 'close', 'volume']]
 
+![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
+### 第二种方法：将1分钟数据转为5分钟数据
+* rule_type = '5T'
+* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='left').agg
+* ({'open': 'first','high': 'max','low': 'min','close': 'last','volume': 'sum',})
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538153.jpg)
+* period_df = period_df[['open', 'high', 'low', 'close', 'volume']]
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538159.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538162.jpg)
