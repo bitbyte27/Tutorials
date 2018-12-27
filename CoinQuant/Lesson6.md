@@ -149,8 +149,8 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538153.jpg)
 * period_df = period_df[['open', 'high', 'low', 'close', 'volume']]
-### base参数：帮助确定转换周期开始的时间
-### label='left', closed='left'，建议统一设置成'left'
+* base参数：帮助确定转换周期开始的时间
+* label='left', closed='left'，建议统一设置成'left'
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538159.jpg)
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='left', closed='left')
@@ -168,8 +168,7 @@
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='left', closed='right')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538750.jpg)
-### ===去除不必要的数据
-### 去除一天都没有交易的周
+### 去除不必要的数据，去除一天都没有交易的周
 * period_df.dropna(subset=['open'], inplace=True)
 ### 去除成交量为0的交易周期
 * period_df = period_df[period_df['volume'] > 0]
