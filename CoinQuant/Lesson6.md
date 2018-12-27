@@ -93,9 +93,17 @@
 * r：
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534179411.jpg)
+### h5_store中的key
+* print(h5_store.keys())
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178851.jpg)
+### 读取某个key指向的数据
+* print(h5_store.get('eos_20170701'))
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178883.jpg)
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178858.jpg)
+* print(h5_store['eos_20180301'])
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178858.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178979.jpg)
 
