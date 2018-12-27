@@ -126,9 +126,24 @@
 * df.set_index('candle_begin_time', inplace=True)
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413433.jpg)
+### 周期转换方法：resample
+* rule_type = '5T'
+* rule='5T'：意思是5分钟，意味着转变为5分钟数据
+* period_df = df[['close']].resample(rule=rule_type).last()
+* last：取这5分钟的最后一行数据
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413432.jpg)
+# 开、高、低的价格，成交量
+* period_df['open'] = df['open'].resample(rule=rule_type).first()
+* period_df['high'] = df['high'].resample(rule=rule_type).max()
+* period_df['low'] = df['low'].resample(rule=rule_type).min()
+* period_df['volume'] = df['volume'].resample(rule=rule_type).sum()
+* period_df = period_df[['open', 'high', 'low', 'close', 'volume']]
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538153.jpg)
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538159.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538162.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538152.jpg)
