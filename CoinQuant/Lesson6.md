@@ -99,12 +99,14 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534178851.jpg)
 ### 读取某个key指向的数据
 * print(h5_store.get('eos_20170701'))
-![](https://img3.doubanio.com/view/photo/l/public/p2534178883.jpg)
 
-![](https://img1.doubanio.com/view/photo/l/public/p2534178858.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534178883.jpg)
 * print(h5_store['eos_20180301'])
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178858.jpg)
+### 关闭hdf文件
+* h5_store.close()
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534178979.jpg)
 
 ## 6.3 转变K线数据周期
