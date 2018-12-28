@@ -160,13 +160,15 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538152.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538166.jpg)
+### label='left'
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='left')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538744.jpg)
+### label='right'
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='right', closed='left')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538750.jpg)
-
+### closed='right'
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='right')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538743.jpg)
