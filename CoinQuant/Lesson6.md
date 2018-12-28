@@ -247,10 +247,30 @@
 * print(df.groupby('candle_begin_time')['volume'].rank(pct=True))
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534543157.jpg)
+### 也可以同时用多个变量来进行group，将这些变量的值都相同的行
+* df['candle_begin_time'] = pd.to_datetime(df['candle_begin_time'])
+* df.loc[df['candle_begin_time'].dt.hour < 12, '时间'] = '上午'
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534543153.jpg)
+* df['时间'].fillna(value='下午', inplace=True)
+* print(df.groupby(['symbol', '时间']).size())
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534543149.jpg)
+### 我们之前讲过的resample、fillna、apply等常见操作，在group里面都可以进行。
+### 这些操作需要大家有一定的积累，若直接在group上进行这些操作不熟练，可以使用已下的方式。
+### 遍历group，对每个group进行单独操作，然后将这些group合并起来。
+* 语法：for key, group in df.groupby('列名'):
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534543150.jpg)
+* for symbol, group in df.groupby('symbol'):
+* print(symbol)
+* print(group)
+### 以下可以对各个group进行任意操作。
+* group.fillna()
+* group.apply()
+### 操作完之后，将这些group再append起来
+### 在一开始不熟练的时候，可以多用遍历每个group的方式。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534543161.jpg)
 
 > END
