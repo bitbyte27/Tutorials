@@ -191,11 +191,28 @@
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538754.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538758.jpg)
 ## 6.4 groupby分组
+### 导入数据
+* df = pd.read_csv('/Users/jxing/Desktop/coin_quant_class/data/class5/BITFINEX-1H-data-20180124.csv', skiprows=1)
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538762.jpg)
+### 根据'candle_begin_time'进行group，将相同'交易日期'的行放入一个group，
+* print(df.groupby('candle_begin_time'))  # 生成一个group对象。不会做实质性操作，只是会判断是否可以根据该变量进行groupby。
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542766.jpg)
+### group后可以使用相关函数，size()计算每个group的行数
+* print(df.groupby('candle_begin_time').size())  # 每小时交易的币的个数
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542771.jpg)
+### 根据'symbol'进行group，将相同'symbol'的行放入一个group
+* print(df.groupby('symbol').size())  # 每个币交易的小时数
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542776.jpg)
+### 获取其中某一个group
+* print(df.groupby('candle_begin_time').get_group('2018-01-24 00:00:00'))
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542773.jpg)
+* print(df.groupby('symbol').get_group('BTCUSD'))
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534542777.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542774.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542770.jpg)
