@@ -152,13 +152,13 @@
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538159.jpg)
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='left', closed='left')
+* base=1，使1分钟转换成5分钟的起点分钟时间推后1位，即base=0时，5分钟的起点为第0分钟开始（0-4分钟），base=1则为第1分钟开始（1-5分钟），以此类推。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538162.jpg)
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=2, label='left', closed='left')
+* base=2，则为第1分钟开始（2-6分钟），因为有一些策略放弃前几分钟的数据，采用另类的及时方式来提高策略的有效性，可以采用参数穷举得到收益率差异。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538152.jpg)
-* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='left')
-
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538166.jpg)
 * period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='right', closed='left')
 
