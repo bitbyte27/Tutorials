@@ -214,15 +214,43 @@
 * print(df.groupby('symbol').get_group('BTCUSD'))
 
 ![](https://img1.doubanio.com/view/photo/l/public/p2534542777.jpg)
+### 其他常见函数
+* print(df.groupby('symbol').describe())  # 只会对数值变量进行describe
+* print(df.groupby('symbol').head(3))
+* print(df.groupby('symbol').tail(3))  # 每个group里面的行顺序，会保留。
+* print(df.groupby('symbol').first())
+* print(df.groupby('symbol').last())
+* print(df.groupby('symbol').nth(2))
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542774.jpg)
+### 将group变量设置为index
+* print(df.groupby('symbol').nth(2))
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534542770.jpg)
+### 将group变量【不】设置为index
+* print(df.groupby('symbol', as_index=False).nth(2))
+
 ![](https://img1.doubanio.com/view/photo/l/public/p2534542767.jpg)
-![](https://img3.doubanio.com/view/photo/l/public/p2534543146.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2534543145.webp)
-![](https://img1.doubanio.com/view/photo/l/public/p2534543157.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2534543153.webp)
-![](https://img1.doubanio.com/view/photo/l/public/p2534543149.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2534543150.webp)
-![](https://img3.doubanio.com/view/photo/l/public/p2534543161.webp)
+### 在group之后，取一部分变量进行计算
+### 计算每个group的均值
+* print(df.groupby('symbol')['close', 'volume'].mean())
+### 计算每个group的最大值
+* print(df.groupby('symbol')['close', 'volume'].max())
+
+![](https://img3.doubanio.com/view/photo/l/public/p2534543146.jpg)
+### 计算每个group的加总
+* print(df.groupby('symbol')['volume'].sum())
+
+![](https://img3.doubanio.com/view/photo/l/public/p2534543145.jpg)
+### 计算该数据在每个group中的排名
+* print(df.groupby('candle_begin_time')['volume'].rank())
+* print(df.groupby('candle_begin_time')['volume'].rank(pct=True))
+
+![](https://img1.doubanio.com/view/photo/l/public/p2534543157.jpg)
+
+![](https://img3.doubanio.com/view/photo/l/public/p2534543153.jpg)
+![](https://img1.doubanio.com/view/photo/l/public/p2534543149.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534543150.jpg)
+![](https://img3.doubanio.com/view/photo/l/public/p2534543161.jpg)
 
 > END
