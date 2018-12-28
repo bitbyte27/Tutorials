@@ -160,19 +160,32 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538152.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538166.jpg)
-* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='right', closed='left')
+* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='left')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538744.jpg)
-* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=1, label='left', closed='right')
+* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='right', closed='left')
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538750.jpg)
+
+* period_df = df.resample(rule=rule_type, on='candle_begin_time', base=0, label='left', closed='right')
+
+![](https://img3.doubanio.com/view/photo/l/public/p2534538743.jpg)
 ### 去除不必要的数据，去除一天都没有交易的周
 * period_df.dropna(subset=['open'], inplace=True)
 ### 去除成交量为0的交易周期
 * period_df = period_df[period_df['volume'] > 0]
 
-![](https://img3.doubanio.com/view/photo/l/public/p2534538743.jpg)
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538763.jpg)
+### rule的取值
+* S：secondly frequency，秒
+* T：minutely frequency，分钟
+* H：hourly frequency，小时
+* D：calendar day frequency，日
+* W：weekly frequency，周
+* M：month end frequency，月
+* Q：quarter end frequency，季
+* A：year end frequency，年
+
 ![](https://img3.doubanio.com/view/photo/l/public/p2534538754.jpg)
 ![](https://img1.doubanio.com/view/photo/l/public/p2534538758.jpg)
 ## 6.4 groupby分组
