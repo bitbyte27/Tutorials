@@ -128,10 +128,8 @@
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413433.jpg)
 ### 周期转换方法：resample
-* rule_type = '5T'
-* rule='5T'：意思是5分钟，意味着转变为5分钟数据
-* period_df = df[['close']].resample(rule=rule_type).last()
-* last：取这5分钟的最后一行数据
+* rule_type = '5T'  # rule='5T'：意思是5分钟，意味着转变为5分钟数据
+* period_df = df[['close']].resample(rule=rule_type).last()  # last：取这5分钟的最后一行数据
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534413445.jpg)
 ### 开、高、低的价格，成交量
