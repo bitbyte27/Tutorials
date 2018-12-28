@@ -268,9 +268,9 @@
 ### 以下可以对各个group进行任意操作。
 * group.fillna()
 * group.apply()
-### 操作完之后，将这些group再append起来
-### 在一开始不熟练的时候，可以多用遍历每个group的方式。
 
 ![](https://img3.doubanio.com/view/photo/l/public/p2534543161.jpg)
+### 操作完之后，将这些group再append起来
+### 在一开始不熟练的时候，可以多用遍历每个group的方式。
 
 > END
